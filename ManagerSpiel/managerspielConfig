@@ -1,11 +1,11 @@
 <configuration>
-  <module class="ManagerSpielLoggerModule"/>
-  <module class="ManagerSpielModule">
+  <module class="optimization.ManagerSpielLoggerModule"/>
+  <module class="optimization.ManagerSpielModule">
     <property name="tactics343">true</property>
-    <property name="tactics352">false</property>
-    <property name="tactics433">false</property>
-    <property name="tactics442">false</property>
-    <property name="tactics451">false</property>
+    <property name="tactics352">true</property>
+    <property name="tactics433">true</property>
+    <property name="tactics442">true</property>
+    <property name="tactics451">true</property>
   </module>
   <module class="org.opt4j.core.common.archive.ArchiveModule">
     <property name="type">CROWDING</property>
