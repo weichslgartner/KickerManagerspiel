@@ -44,7 +44,11 @@ public class IOHelper {
 		}
 		return players;
 	}
-
+	/**
+	 * split the player list by positions
+	 * @param list
+	 * @return map with position as key and player list for each position
+	 */
 	public static Map<String, Collection<Player>>splitlistByPositions(Collection<Player> list){
 		 Map<String, Collection<Player>> map = new HashMap<String, Collection<Player>>();
 		 for (String pos : Positions.POSITIONSARRAY){
