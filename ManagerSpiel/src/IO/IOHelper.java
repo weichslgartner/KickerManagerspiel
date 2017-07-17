@@ -17,7 +17,15 @@ import optimization.Positions;
 
 public class IOHelper {
 
-	
+	/**
+	 * loads players from a csv file
+	 * format:
+	 * name;club;position;value;points;avg. ratings
+	 * example:
+	 * Abdullahi;Braunschweig;STU;0,4;14;3,8
+	 * @param fileName
+	 * @return list with all players from list
+	 */
 	public static List<Player> loadPlayersFromCSV(String fileName) {
 		List<Player> players = null; 
 		try (Stream<String> lines = Files.lines(Paths.get(fileName),
@@ -46,15 +54,15 @@ public class IOHelper {
 	}
 	/**
 	 * split the player list by positions
-	 * @param list
+	 * @param players player collection
 	 * @return map with position as key and player list for each position
 	 */
-	public static Map<String, Collection<Player>>splitlistByPositions(Collection<Player> list){
+	public static Map<String, Collection<Player>>splitlistByPositions(Collection<Player> players){
 		 Map<String, Collection<Player>> map = new HashMap<String, Collection<Player>>();
 		 for (String pos : Positions.POSITIONSARRAY){
 			 map.put(pos, new ArrayList<Player>());
 		 }
-		 for (Player player : list){
+		 for (Player player : players){
 			 map.get(player.getPosition()).add(player);
 		 }
 		 return map;
