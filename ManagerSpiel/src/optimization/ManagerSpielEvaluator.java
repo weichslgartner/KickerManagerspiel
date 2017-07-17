@@ -23,18 +23,21 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 	boolean tactics433;
 	boolean tactics442;
 	boolean tactics451;
+	private double budget;
 
 	@Inject
 	public ManagerSpielEvaluator(@Constant(value = "3-4-3") boolean tactics343,
 			@Constant(value = "3-5-2") boolean tactics352,
 			@Constant(value = "4-3-3") boolean tactics433,
 			@Constant(value = "4-4-2") boolean tactics442,
-			@Constant(value = "4-5-1") boolean tactics451) {
+			@Constant(value = "4-5-1") boolean tactics451,
+			@Constant(value = "teambudget") double budget) {
 		this.tactics343 = tactics343;
 		this.tactics352 = tactics352;
 		this.tactics433 = tactics433;
 		this.tactics442 = tactics442;
 		this.tactics451 = tactics451;
+		this.budget = budget;
 
 	}
 
@@ -128,7 +131,7 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 		}
 
 		// System.out.println(points);
-		if (value <= 10 && playerSelection.isFeasible()) {
+		if (value <= budget && playerSelection.isFeasible()) {
 			objectives.add(new Objective("overall points", MAX), points);
 			if (tactics451)
 				objectives.add(new Objective("451", MAX), points451);

@@ -7,6 +7,7 @@ import java.util.Set;
 
 import org.opt4j.core.Genotype;
 import org.opt4j.core.common.random.Rand;
+import org.opt4j.core.start.Constant;
 import org.opt4j.satdecoding.AbstractSATDecoder;
 import org.opt4j.satdecoding.Constraint;
 import org.opt4j.satdecoding.Constraint.Operator;
@@ -26,6 +27,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		AbstractSATDecoder<Genotype, PlayerSelection> {
 
 	private final ManagerSpielProblem problem;
+	private double budget;
 
 	/**
 	 * Creates a new {@link ManagerSpielSATCreatorDecoder}.
@@ -37,9 +39,10 @@ public class ManagerSpielSATCreatorDecoder extends
 	 */
 	@Inject
 	public ManagerSpielSATCreatorDecoder(SATManager manager,
-			ManagerSpielProblem problem, Rand random) {
+			ManagerSpielProblem problem, Rand random,@Constant(value = "teambudget") double budget) {
 		super(manager, random);
 		this.problem = problem;
+		this.budget =budget;
 	}
 
 	@Override
@@ -49,7 +52,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		Constraint abwConstraint = new Constraint(Operator.EQ, 6);
 		Constraint mitConstraint = new Constraint(Operator.EQ, 8);
 		Constraint stuConstraint = new Constraint(Operator.EQ, 5);
-//		Constraint maxValueConstraint = new Constraint(Operator.LE,100);
+//		Constraint maxValueConstraint = new Constraint(Operator.LE,(int)(budget*100));
 		Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
 
 		for (Player player : problem.getPlayers()) {
@@ -70,7 +73,7 @@ public class ManagerSpielSATCreatorDecoder extends
 			default:
 				System.err.println("Undefined Position");
 			}
-//			maxValueConstraint.add((int) (player.getValue() * 10), new Literal(
+//			maxValueConstraint.add((int) (player.getValue() * 100), new Literal(
 //					player, true));
 
 			if (!maxPlayerPerTeamConstraints.containsKey(player.getClub())) {

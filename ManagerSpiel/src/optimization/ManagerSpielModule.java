@@ -1,12 +1,18 @@
 package optimization;
+import org.opt4j.core.config.annotations.Info;
+import org.opt4j.core.config.annotations.Order;
 import org.opt4j.core.problem.ProblemModule;
 import org.opt4j.core.start.Constant;
 
 public class ManagerSpielModule extends ProblemModule {
 
+//	@Required(property = "league", elements = { "SECONDLEAGUE", "ThirL"})
+	@Order(10)
+    @Info("Select the League")
+	protected League league = League.SECONDLEAGUE;
+	
 	@Constant(value = "3-4-3")
 	protected boolean tactics343 = true;
-
 	
 	@Constant(value = "3-5-2")
 	protected boolean tactics352 = true;
@@ -20,9 +26,27 @@ public class ManagerSpielModule extends ProblemModule {
 	@Constant(value = "4-5-1")
 	protected boolean tactics451 = true;
 	
+	@Constant(value = "teambudget") 
+	protected double teambudget = 10;
+	
+	
 	@Override
 	protected void config() {
-		bind(ManagerSpielProblem.class).to(SecondLeagueManagerSpielProblem.class).in(SINGLETON);
+		switch (league) {
+		case SECONDLEAGUE:
+			setTeambudget(10);
+			bind(ManagerSpielProblem.class).to(SecondLeagueManagerSpielProblem.class).in(SINGLETON);
+
+			break;
+		case TIRDLEAGUE:
+			setTeambudget(6);
+			bind(ManagerSpielProblem.class).to(ThirdLeagueManagerSpielProblem.class).in(SINGLETON);
+
+			break;
+
+		default:
+			break;
+		}
 		bindProblem(ManagerSpielSATCreatorDecoder.class, ManagerSpielSATCreatorDecoder.class, ManagerSpielEvaluator.class);
 	}
 
@@ -64,6 +88,22 @@ public class ManagerSpielModule extends ProblemModule {
 
 	public void setTactics451(boolean tactics451) {
 		this.tactics451 = tactics451;
+	}
+
+	public League getLeague() {
+		return league;
+	}
+
+	public void setLeague(League league) {
+		this.league = league;
+	}
+
+	public double getTeambudget() {
+		return teambudget;
+	}
+
+	public void setTeambudget(double teambudget) {
+		this.teambudget = teambudget;
 	}
 
 }
