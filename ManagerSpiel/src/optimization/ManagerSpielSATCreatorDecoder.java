@@ -1,5 +1,6 @@
 package optimization;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -29,7 +30,6 @@ public class ManagerSpielSATCreatorDecoder extends
 
 	private final ManagerSpielProblem problem;
 	private double budget;
-	private Set<Player> inclusionList;
 	private boolean classic;
 
 	/**
@@ -48,15 +48,19 @@ public class ManagerSpielSATCreatorDecoder extends
 		super(manager, random);
 		this.problem = problem;
 		this.budget = budget;
-		this.inclusionList = new HashSet<Player>();
 		this.classic = classic;
-		// this.inclusionList.add(new Player("Lewandowski", "Bayern",
-		// Positions.STU, (float) 8.5));
+		
+		
 
 	}
 
 	@Override
 	public Set<Constraint> createConstraints() {
+		Collection<Player> inclusionList = problem.getIncludedPlayers();
+		Collection<Player> exlusionList = problem.getExcludedPlayers();
+		Collection<Player> playerList = problem.getPlayers();
+		playerList.removeAll(exlusionList);
+		
 		Set<Constraint> constraints = new HashSet<Constraint>();
 		Constraint torConstraint;
 		Constraint abwConstraint;
@@ -79,7 +83,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		// Constraint(Operator.LE,(int)(budget*100));
 		Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
 
-		for (Player player : problem.getPlayers()) {
+		for (Player player : playerList) {
 			for (Player player2 : inclusionList) {
 				if (player2.getName().equals(player.getName()))
 					inclusionConstraint.add(1, new Literal(player, true));
@@ -123,7 +127,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		for (String key : maxPlayerPerTeamConstraints.keySet()) {
 			constraints.add(maxPlayerPerTeamConstraints.get(key));
 		}
-
+		System.out.println("Number of Constraints: "+constraints.size() + " Budget: "+this.budget);;
 		return constraints;
 	}
 

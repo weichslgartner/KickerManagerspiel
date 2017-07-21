@@ -1,4 +1,5 @@
 package IO;
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -28,6 +29,10 @@ public class IOHelper {
 	 */
 	public static List<Player> loadPlayersFromCSV(String fileName) {
 		List<Player> players = null; 
+		if(!(new File(fileName).isFile())){
+			System.err.println("File " + fileName + " does not exist. Skip");
+			return players;
+		}
 		try (Stream<String> lines = Files.lines(Paths.get(fileName),
 				Charset.forName("Cp1252"))) {
 			players = lines.map(
