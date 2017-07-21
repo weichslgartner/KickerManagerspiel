@@ -28,6 +28,9 @@ public class ManagerSpielModule extends ProblemModule {
 	@Constant(value = "4-5-1")
 	protected boolean tactics451 = true;
 	
+	@Constant(value = "classic")
+	protected boolean classic = true;
+	
 	@Constant(value = "budget") 
 	protected double budget = 42;
 	
@@ -121,6 +124,14 @@ public class ManagerSpielModule extends ProblemModule {
 
 	public void setTactics453(boolean tactics453) {
 		this.tactics453 = tactics453;
+	}
+
+	public boolean isClassic() {
+		return classic;
+	}
+
+	public void setClassic(boolean classic) {
+		this.classic = classic;
 	}
 
 }

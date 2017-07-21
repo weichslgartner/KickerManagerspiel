@@ -18,7 +18,8 @@ import org.opt4j.satdecoding.SATManager;
 import com.google.inject.Inject;
 
 /**
- * Use SAT decoding to solve the kicker ManagerSpiel. (modified knapsack problem)
+ * Use SAT decoding to solve the kicker ManagerSpiel. (modified knapsack
+ * problem)
  * 
  * @author weichslgartner
  * 
@@ -29,6 +30,7 @@ public class ManagerSpielSATCreatorDecoder extends
 	private final ManagerSpielProblem problem;
 	private double budget;
 	private Set<Player> inclusionList;
+	private boolean classic;
 
 	/**
 	 * Creates a new {@link ManagerSpielSATCreatorDecoder}.
@@ -40,33 +42,47 @@ public class ManagerSpielSATCreatorDecoder extends
 	 */
 	@Inject
 	public ManagerSpielSATCreatorDecoder(SATManager manager,
-			ManagerSpielProblem problem, Rand random,@Constant(value = "budget") double budget) {
+			ManagerSpielProblem problem, Rand random,
+			@Constant(value = "budget") double budget,
+			@Constant(value = "classic") boolean classic) {
 		super(manager, random);
 		this.problem = problem;
-		this.budget =budget;
+		this.budget = budget;
 		this.inclusionList = new HashSet<Player>();
-//		this.inclusionList.add(new Player("Lewandowski", "Bayern", Positions.STU, (float) 8.5));
-	
+		this.classic = classic;
+		// this.inclusionList.add(new Player("Lewandowski", "Bayern",
+		// Positions.STU, (float) 8.5));
 
 	}
 
 	@Override
 	public Set<Constraint> createConstraints() {
 		Set<Constraint> constraints = new HashSet<Constraint>();
-		Constraint torConstraint = new Constraint(Operator.EQ, 3);
-		Constraint abwConstraint = new Constraint(Operator.EQ, 6);
-		Constraint mitConstraint = new Constraint(Operator.EQ, 8);
-		Constraint stuConstraint = new Constraint(Operator.EQ, 5);
-		Constraint inclusionConstraint = new Constraint(Operator.EQ, inclusionList.size());
-//		Constraint maxValueConstraint = new Constraint(Operator.LE,(int)(budget*100));
+		Constraint torConstraint;
+		Constraint abwConstraint;
+		Constraint mitConstraint;
+		Constraint stuConstraint;
+		if (classic) {
+			torConstraint = new Constraint(Operator.EQ, 2);
+			abwConstraint = new Constraint(Operator.EQ, 4);
+			mitConstraint = new Constraint(Operator.EQ, 6);
+			stuConstraint = new Constraint(Operator.EQ, 3);
+		} else {
+			torConstraint = new Constraint(Operator.EQ, 3);
+			abwConstraint = new Constraint(Operator.EQ, 6);
+			mitConstraint = new Constraint(Operator.EQ, 8);
+			stuConstraint = new Constraint(Operator.EQ, 5);
+		}
+		Constraint inclusionConstraint = new Constraint(Operator.EQ,
+				inclusionList.size());
+		// Constraint maxValueConstraint = new
+		// Constraint(Operator.LE,(int)(budget*100));
 		Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
 
-		
-		
 		for (Player player : problem.getPlayers()) {
-			for(Player player2 : inclusionList){
+			for (Player player2 : inclusionList) {
 				if (player2.getName().equals(player.getName()))
-				inclusionConstraint.add(1, new Literal(player, true));
+					inclusionConstraint.add(1, new Literal(player, true));
 			}
 			switch (player.getPosition()) {
 			case Positions.TOR:
@@ -84,8 +100,9 @@ public class ManagerSpielSATCreatorDecoder extends
 			default:
 				System.err.println("Undefined Position");
 			}
-//			maxValueConstraint.add((int) (player.getValue() * 100), new Literal(
-//					player, true));
+			// maxValueConstraint.add((int) (player.getValue() * 100), new
+			// Literal(
+			// player, true));
 
 			if (!maxPlayerPerTeamConstraints.containsKey(player.getClub())) {
 				Constraint clubConstraint = new Constraint(Operator.LE, 4);
@@ -102,11 +119,11 @@ public class ManagerSpielSATCreatorDecoder extends
 		constraints.add(mitConstraint);
 		constraints.add(stuConstraint);
 		constraints.add(inclusionConstraint);
-		//constraints.add(maxValueConstraint);
-		for(String key : maxPlayerPerTeamConstraints.keySet()){
+		// constraints.add(maxValueConstraint);
+		for (String key : maxPlayerPerTeamConstraints.keySet()) {
 			constraints.add(maxPlayerPerTeamConstraints.get(key));
 		}
-		
+
 		return constraints;
 	}
 
