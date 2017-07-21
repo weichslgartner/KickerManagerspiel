@@ -73,8 +73,10 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 					bestIndividualObjectiveValue = curValue;
 					bestIndividualObjectiveName = objective.getKey().getName();
 				}
+				
+
 			}
-			
+			System.out.println( " Team:\n"+curTeam);
 			if (bestIndividualObjectiveValue > bestteamPoints) {
 				bestTeam = curTeam;
 				bestteamPoints = bestIndividualObjectiveValue;

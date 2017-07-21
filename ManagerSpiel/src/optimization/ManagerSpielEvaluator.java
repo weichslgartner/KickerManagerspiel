@@ -23,16 +23,20 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 	boolean tactics433;
 	boolean tactics442;
 	boolean tactics451;
+	boolean tactics453;
 	private double budget;
+	
 
 	@Inject
 	public ManagerSpielEvaluator(@Constant(value = "3-4-3") boolean tactics343,
+			@Constant(value = "4-5-3") boolean tactics453,
 			@Constant(value = "3-5-2") boolean tactics352,
 			@Constant(value = "4-3-3") boolean tactics433,
 			@Constant(value = "4-4-2") boolean tactics442,
 			@Constant(value = "4-5-1") boolean tactics451,
-			@Constant(value = "teambudget") double budget) {
+			@Constant(value = "budget") double budget) {
 		this.tactics343 = tactics343;
+		this.tactics453 = tactics453;
 		this.tactics352 = tactics352;
 		this.tactics433 = tactics433;
 		this.tactics442 = tactics442;
@@ -64,6 +68,7 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 		int points442 = 0;
 		int points433 = 0;
 		int points343 = 0;
+		int points454 = 0;
 		float value = 0;
 
 		for (String pos : Positions.POSITIONSARRAY) {
@@ -88,7 +93,7 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 					}
 					if (i < 4) {
 						points451 += player.getPoints1516();
-						;
+						points454 += player.getPoints1516();
 						points442 += player.getPoints1516();
 						points433 += player.getPoints1516();
 					}
@@ -105,7 +110,7 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 					if (i < 5) {
 						points352 += player.getPoints1516();
 						points451 += player.getPoints1516();
-						;
+						points454 += player.getPoints1516();
 					}
 				}
 
@@ -118,9 +123,15 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 						points442 += player.getPoints1516();
 						points352 += player.getPoints1516();
 					}
-					if (i < 5) {
+					if (i < 4) {
 						points433 += player.getPoints1516();
 						points343 += player.getPoints1516();
+
+					}
+					
+					if (i < 5) {
+						points454 += player.getPoints1516();
+						
 
 					}
 				}
@@ -143,6 +154,8 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 				objectives.add(new Objective("433", MAX), points433);
 			if (tactics343)
 				objectives.add(new Objective("343", MAX), points343);
+			if (tactics453)
+				objectives.add(new Objective("454", MAX), points454);
 		} else {
 			playerSelection.setFeasible(false);
 			objectives.add(new Objective("overall points", MAX),
@@ -157,6 +170,8 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 				objectives.add(new Objective("433", MAX), Objective.INFEASIBLE);
 			if (tactics343)
 				objectives.add(new Objective("343", MAX), Objective.INFEASIBLE);
+			if (tactics453)
+				objectives.add(new Objective("454", MAX), Objective.INFEASIBLE);
 		}
 
 		return objectives;

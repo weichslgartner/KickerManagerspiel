@@ -28,6 +28,7 @@ public class ManagerSpielSATCreatorDecoder extends
 
 	private final ManagerSpielProblem problem;
 	private double budget;
+	private Set<Player> inclusionList;
 
 	/**
 	 * Creates a new {@link ManagerSpielSATCreatorDecoder}.
@@ -39,10 +40,14 @@ public class ManagerSpielSATCreatorDecoder extends
 	 */
 	@Inject
 	public ManagerSpielSATCreatorDecoder(SATManager manager,
-			ManagerSpielProblem problem, Rand random,@Constant(value = "teambudget") double budget) {
+			ManagerSpielProblem problem, Rand random,@Constant(value = "budget") double budget) {
 		super(manager, random);
 		this.problem = problem;
 		this.budget =budget;
+		this.inclusionList = new HashSet<Player>();
+//		this.inclusionList.add(new Player("Lewandowski", "Bayern", Positions.STU, (float) 8.5));
+	
+
 	}
 
 	@Override
@@ -52,11 +57,17 @@ public class ManagerSpielSATCreatorDecoder extends
 		Constraint abwConstraint = new Constraint(Operator.EQ, 6);
 		Constraint mitConstraint = new Constraint(Operator.EQ, 8);
 		Constraint stuConstraint = new Constraint(Operator.EQ, 5);
+		Constraint inclusionConstraint = new Constraint(Operator.EQ, inclusionList.size());
 //		Constraint maxValueConstraint = new Constraint(Operator.LE,(int)(budget*100));
 		Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
 
+		
+		
 		for (Player player : problem.getPlayers()) {
-
+			for(Player player2 : inclusionList){
+				if (player2.getName().equals(player.getName()))
+				inclusionConstraint.add(1, new Literal(player, true));
+			}
 			switch (player.getPosition()) {
 			case Positions.TOR:
 				torConstraint.add(1, new Literal(player, true));
@@ -90,6 +101,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		constraints.add(abwConstraint);
 		constraints.add(mitConstraint);
 		constraints.add(stuConstraint);
+		constraints.add(inclusionConstraint);
 		//constraints.add(maxValueConstraint);
 		for(String key : maxPlayerPerTeamConstraints.keySet()){
 			constraints.add(maxPlayerPerTeamConstraints.get(key));

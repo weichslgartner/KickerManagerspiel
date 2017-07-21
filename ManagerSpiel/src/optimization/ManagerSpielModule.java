@@ -10,9 +10,11 @@ public class ManagerSpielModule extends ProblemModule {
 	@Order(10)
     @Info("Select the League")
 	protected League league = League.SECONDLEAGUE;
-	
 	@Constant(value = "3-4-3")
 	protected boolean tactics343 = true;
+	
+	@Constant(value = "4-5-3")
+	protected boolean tactics453 = true;
 	
 	@Constant(value = "3-5-2")
 	protected boolean tactics352 = true;
@@ -26,20 +28,25 @@ public class ManagerSpielModule extends ProblemModule {
 	@Constant(value = "4-5-1")
 	protected boolean tactics451 = true;
 	
-	@Constant(value = "teambudget") 
-	protected double teambudget = 10;
+	@Constant(value = "budget") 
+	protected double budget = 42;
 	
 	
 	@Override
 	protected void config() {
 		switch (league) {
+		case FIRSTLEAGUE:
+			setBudget(42);
+			bind(ManagerSpielProblem.class).to(FirstLeagueManagerSpielProblem.class).in(SINGLETON);
+
+			break;
 		case SECONDLEAGUE:
-			setTeambudget(10);
+			setBudget(10);
 			bind(ManagerSpielProblem.class).to(SecondLeagueManagerSpielProblem.class).in(SINGLETON);
 
 			break;
 		case TIRDLEAGUE:
-			setTeambudget(6);
+			setBudget(6);
 			bind(ManagerSpielProblem.class).to(ThirdLeagueManagerSpielProblem.class).in(SINGLETON);
 
 			break;
@@ -47,6 +54,8 @@ public class ManagerSpielModule extends ProblemModule {
 		default:
 			break;
 		}
+		bindConstant("budget", ManagerSpielEvaluator.class).to(budget);
+		bindConstant("budget", ManagerSpielSATCreatorDecoder.class).to(budget);
 		bindProblem(ManagerSpielSATCreatorDecoder.class, ManagerSpielSATCreatorDecoder.class, ManagerSpielEvaluator.class);
 	}
 
@@ -97,13 +106,21 @@ public class ManagerSpielModule extends ProblemModule {
 	public void setLeague(League league) {
 		this.league = league;
 	}
-
-	public double getTeambudget() {
-		return teambudget;
+	
+	public double getBudget() {
+		return budget;
 	}
 
-	public void setTeambudget(double teambudget) {
-		this.teambudget = teambudget;
+	public void setBudget(double teambudget) {
+		this.budget = teambudget;
+	}
+
+	public boolean isTactics453() {
+		return tactics453;
+	}
+
+	public void setTactics453(boolean tactics453) {
+		this.tactics453 = tactics453;
 	}
 
 }
