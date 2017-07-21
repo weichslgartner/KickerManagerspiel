@@ -1,0 +1,52 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+apply plugin: 'jacoco'
+
+mainClassName = 'org.opt4j.core.start.Opt4J'
+
+
+
+repositories {
+    
+	mavenCentral()
+}
+
+
+jar {
+	manifest { 
+		attributes 'Main-Class': mainClassName
+	}
+	baseName = 'managerSpiel'
+	version = '0.1'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+
+	runtime group: 'org.opt4j',			name: 'opt4j-viewer',			version: '3.1.4'
+	runtime group: 'org.opt4j',			name: 'opt4j-satdecoding',		version: '3.1.4'
+	runtime group: 'org.opt4j',			name: 'opt4j-optimizers',		version: '3.1.4'
+	runtime group: 'org.opt4j',			name: 'opt4j-operators',		version: '3.1.4'
+
+	testCompile group: 'junit', 		name: 'junit', 					version: '4.+'
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '3.5'
+}
+
+eclipse {
+	classpath {
+		containers 'org.springsource.ide.eclipse.gradle.classpathcontainer'
+	}
+}
+
+jacocoTestReport {
+    reports {
+        html.enabled = true
+    }
+}
