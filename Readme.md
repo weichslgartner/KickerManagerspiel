@@ -7,23 +7,23 @@ Modeled as a Knapsack problem solved by SAT and EAs provided by Opt4J (http://op
 # Build and Run:
 
 ## Eclipse:
-⋅⋅* right click on Opt4J.lauch "run as"
+* right click on Opt4J.lauch "run as"
 
 ## Ant:
-⋅⋅* ant build
-⋅⋅* ant Opt4J
+* ant build
+* ant Opt4J
 
 ## Gradle: 
-⋅⋅* gradle tasks
+* gradle tasks
 
 # Features:
 
 ## Inclusion/Exclusion Lists:
-⋅⋅* Players specified in these lists are always included in the team (inclusion list)
+* Players specified in these lists are always included in the team (inclusion list)
   or are excluded from the team selection (exclusion list)
 
 # Known Issues/bugs:
-⋅⋅* Budget doesn't adjust itself to the chosen league and mode (interactive/classic)
+* Budget doesn't adjust itself to the chosen league and mode (interactive/classic)
 
 # Todos:
-⋅⋅* Couple with point prediction.
+* Couple with point prediction.
