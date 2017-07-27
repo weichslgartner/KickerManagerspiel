@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
-<stringAttribute key="bad_container_name" value="/ManagerSpiel"/>
+<stringAttribute key="bad_container_name" value="/KickerManagerspiel"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/ManagerSpiel/opt4j-3.0.1.jar"/>
+<listEntry value="/KickerManagerspiel/opt4j-3.0.1.jar"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -12,6 +12,6 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.opt4j.core.start.Opt4J"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="managerspielConfig"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ManagerSpiel"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="KickerManagerspiel"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx1g -ea -Xss4m"/>
 </launchConfiguration>
