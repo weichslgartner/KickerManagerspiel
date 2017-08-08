@@ -56,7 +56,7 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 			
 			Objectives objectives = individual.getObjectives();
 
-			curTeam = phenotype.getTeamSortedByPosAndPoints();
+			curTeam = phenotype.toCSVString();
 			curTeam  += "\nOverall value: " + phenotype.getTeamValue();
 
 			double bestIndividualObjectiveValue =0;

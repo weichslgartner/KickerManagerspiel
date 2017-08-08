@@ -61,7 +61,11 @@ public class Player implements Comparable<Player> {
 		// TODO Auto-generated method stub
 		return this.name + "(" + this.club + " " + this.position + ")";
 	}
-
+	public String toCSVString() {
+		// TODO Auto-generated method stub
+		return this.name + ";" + this.club + ";" + this.position + ";"+ this.points1516 + ";\n";
+	}
+	
 	public int compareTo(Player other) {
 		return this.name.compareToIgnoreCase(other.name);
 	}
