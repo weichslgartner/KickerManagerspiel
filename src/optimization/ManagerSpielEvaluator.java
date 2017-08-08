@@ -123,7 +123,7 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 						points442 += player.getPoints1516();
 						points352 += player.getPoints1516();
 					}
-					if (i < 4) {
+					if (i < 3) {
 						points433 += player.getPoints1516();
 						points343 += player.getPoints1516();
 
