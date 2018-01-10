@@ -35,13 +35,23 @@ public class IOHelper {
 		}
 		try (Stream<String> lines = Files.lines(Paths.get(fileName),
 				Charset.forName("Cp1252"))) {
+			
 			players = lines.map(
+					
 					line -> {
 						List<String> lineList = Arrays.asList(line.replace(',','.').split(";"));
 
-						Player player = new Player(lineList.get(0), lineList
-								.get(1), lineList.get(2), Float
-								.parseFloat(lineList.get(3)));
+						String name = lineList.get(0); 
+						String club = lineList.get(1);
+						String position = "";
+						float value =0;
+						if (lineList.size() > 	1) {
+							 position = lineList.get(2);
+							 value = Float.parseFloat(lineList.get(3));
+						}
+					
+						
+						Player player = new Player(name, club, position,value);
 						if (lineList.size() > 5) {
 							player.setPoints1516(Integer.parseInt(lineList
 									.get(4)));

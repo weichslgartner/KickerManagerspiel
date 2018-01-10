@@ -31,6 +31,9 @@ public class ManagerSpielModule extends ProblemModule {
 	@Constant(value = "classic")
 	protected boolean classic = true;
 	
+	@Constant(value = "winter")
+	protected boolean winter = true;
+	
 	@Constant(value = "budget") 
 	protected double budget = 42;
 	
@@ -43,17 +46,23 @@ public class ManagerSpielModule extends ProblemModule {
 			bind(ManagerSpielProblem.class).to(FirstLeagueManagerSpielProblem.class).in(SINGLETON);
 
 			break;
+		case FIRSTLEAGUEWINTER:
+			setBudget(42);
+			bind(ManagerSpielProblem.class).to(FirstLeagueManagerSpielProblemWinter.class).in(SINGLETON);
+	
+			break;
+		
 		case SECONDLEAGUE:
 			setBudget(10);
 			bind(ManagerSpielProblem.class).to(SecondLeagueManagerSpielProblem.class).in(SINGLETON);
 
 			break;
-		case TIRDLEAGUE:
+			
+		case THIRDLEAGUE:
 			setBudget(6);
 			bind(ManagerSpielProblem.class).to(ThirdLeagueManagerSpielProblem.class).in(SINGLETON);
 
 			break;
-
 		default:
 			break;
 		}
@@ -132,6 +141,14 @@ public class ManagerSpielModule extends ProblemModule {
 
 	public void setClassic(boolean classic) {
 		this.classic = classic;
+	}
+
+	public boolean isWinter() {
+		return winter;
+	}
+
+	public void setWinter(boolean winter) {
+		this.winter = winter;
 	}
 
 }

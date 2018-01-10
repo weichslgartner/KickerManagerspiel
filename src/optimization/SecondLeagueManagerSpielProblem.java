@@ -34,5 +34,9 @@ public class SecondLeagueManagerSpielProblem implements ManagerSpielProblem {
 	public Collection<Player> getIncludedPlayers() {
 		return includedPlayers;
 	}
+	
+	public Collection<Player> getWinterPlayers() {
+		return null;
+	}
 
 }

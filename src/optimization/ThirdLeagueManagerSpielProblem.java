@@ -37,5 +37,9 @@ public class ThirdLeagueManagerSpielProblem implements ManagerSpielProblem {
 	public Collection<Player> getPlayers() {
 		return players;
 	}
+	
+	public Collection<Player> getWinterPlayers() {
+		return null;
+	}
 
 }

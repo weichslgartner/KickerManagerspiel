@@ -59,6 +59,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		Collection<Player> inclusionList = problem.getIncludedPlayers();
 		Collection<Player> exlusionList = problem.getExcludedPlayers();
 		Collection<Player> playerList = problem.getPlayers();
+		Collection<Player> winterplayers = problem.getWinterPlayers();
 		playerList.removeAll(exlusionList);
 		
 		Set<Constraint> constraints = new HashSet<Constraint>();
@@ -66,6 +67,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		Constraint abwConstraint;
 		Constraint mitConstraint;
 		Constraint stuConstraint;
+		Constraint winterConstraint =  new Constraint(Operator.GE, 0);
 		if (classic) {
 			torConstraint = new Constraint(Operator.EQ, 2);
 			abwConstraint = new Constraint(Operator.EQ, 4);
@@ -76,6 +78,10 @@ public class ManagerSpielSATCreatorDecoder extends
 			abwConstraint = new Constraint(Operator.EQ, 6);
 			mitConstraint = new Constraint(Operator.EQ, 8);
 			stuConstraint = new Constraint(Operator.EQ, 5);
+			
+			if (winterplayers != null) {
+				winterConstraint= new Constraint(Operator.GE, 18);
+			}
 		}
 		Constraint inclusionConstraint = new Constraint(Operator.EQ,
 				inclusionList.size());
@@ -88,6 +94,12 @@ public class ManagerSpielSATCreatorDecoder extends
 				if (player2.getName().equals(player.getName()))
 					inclusionConstraint.add(1, new Literal(player, true));
 			}
+			for (Player player2 : winterplayers) {
+				if (player2.getName().equals(player.getName()))
+					winterConstraint.add(1, new Literal(player, true));
+			}
+			
+			
 			switch (player.getPosition()) {
 			case Positions.TOR:
 				torConstraint.add(1, new Literal(player, true));
@@ -123,6 +135,7 @@ public class ManagerSpielSATCreatorDecoder extends
 		constraints.add(mitConstraint);
 		constraints.add(stuConstraint);
 		constraints.add(inclusionConstraint);
+		constraints.add(winterConstraint);
 		// constraints.add(maxValueConstraint);
 		for (String key : maxPlayerPerTeamConstraints.keySet()) {
 			constraints.add(maxPlayerPerTeamConstraints.get(key));
