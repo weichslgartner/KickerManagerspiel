@@ -83,8 +83,10 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 				bestObjectveName = bestIndividualObjectiveName;
 			}
 		}
+		if (bestObjectveName.length() >3) {
+			System.out.println("Tactics: " + bestObjectveName.substring(0, 3) + " Points: " + bestteamPoints + " Team:\n"+bestTeam);
 
-		System.out.println("Tactics: " + bestObjectveName.substring(0, 3) + " Points: " + bestteamPoints + " Team:\n"+bestTeam);
+		}
 	}
 
 }

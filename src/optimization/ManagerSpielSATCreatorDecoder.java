@@ -79,7 +79,7 @@ public class ManagerSpielSATCreatorDecoder extends
 			mitConstraint = new Constraint(Operator.EQ, 8);
 			stuConstraint = new Constraint(Operator.EQ, 5);
 			
-			if (winterplayers != null) {
+			if (problem instanceof FirstLeagueManagerSpielProblemWinter) {
 				winterConstraint= new Constraint(Operator.GE, 18);
 			}
 		}

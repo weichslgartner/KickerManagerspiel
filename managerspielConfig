@@ -3,12 +3,14 @@
   <module class="optimization.ManagerSpielModule">
     <property name="league">FIRSTLEAGUE</property>
     <property name="budget">42.0</property>
+    <property name="classic">false</property>
     <property name="tactics343">true</property>
-    <property name="tactics352">false</property>
-    <property name="tactics433">false</property>
-    <property name="tactics442">false</property>
-    <property name="tactics451">false</property>
+    <property name="tactics352">true</property>
+    <property name="tactics433">true</property>
+    <property name="tactics442">true</property>
+    <property name="tactics451">true</property>
     <property name="tactics453">true</property>
+    <property name="winter">false</property>
   </module>
   <module class="org.opt4j.core.common.archive.ArchiveModule">
     <property name="type">CROWDING</property>

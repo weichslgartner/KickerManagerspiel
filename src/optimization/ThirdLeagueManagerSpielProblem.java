@@ -1,4 +1,5 @@
 package optimization;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -39,7 +40,7 @@ public class ThirdLeagueManagerSpielProblem implements ManagerSpielProblem {
 	}
 	
 	public Collection<Player> getWinterPlayers() {
-		return null;
+		return new ArrayList<Player>();
 	}
 
 }
