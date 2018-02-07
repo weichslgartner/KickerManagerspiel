@@ -58,3 +58,7 @@ sourceSets {
         }
     }
 }
+
+run {
+    args = ['default.config.xml']
+}
