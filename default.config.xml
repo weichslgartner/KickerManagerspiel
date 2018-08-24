@@ -1,23 +1,23 @@
 <configuration>
   <module class="optimization.ManagerSpielLoggerModule"/>
   <module class="optimization.ManagerSpielModule">
-    <property name="league">SECONDLEAGUE</property>
-    <property name="budget">42.0</property>
-    <property name="classic">true</property>
+    <property name="league">FIRSTLEAGUE</property>
+    <property name="budget">42.5</property>
+    <property name="classic">false</property>
     <property name="tactics343">true</property>
     <property name="tactics352">true</property>
     <property name="tactics433">true</property>
     <property name="tactics442">true</property>
     <property name="tactics451">true</property>
-    <property name="tactics453">true</property>
-    <property name="winter">true</property>
+    <property name="tactics453">false</property>
+    <property name="winter">false</property>
   </module>
   <module class="org.opt4j.optimizers.ea.EvolutionaryAlgorithmModule">
-    <property name="generations">1000</property>
+    <property name="generations">4000</property>
     <property name="alpha">100</property>
     <property name="mu">25</property>
-    <property name="lambda">25</property>
-    <property name="crossoverRate">0.95</property>
+    <property name="lambda">30</property>
+    <property name="crossoverRate">0.92</property>
   </module>
   <module class="org.opt4j.viewer.ViewerModule">
     <property name="closeEvent">STOP</property>

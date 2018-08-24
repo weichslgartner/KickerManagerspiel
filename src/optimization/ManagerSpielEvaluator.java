@@ -18,12 +18,12 @@ import com.google.inject.Inject;
 import static org.opt4j.core.Objective.Sign.*;
 
 public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
-	boolean tactics343;
-	boolean tactics352;
-	boolean tactics433;
-	boolean tactics442;
-	boolean tactics451;
-	boolean tactics453;
+	private boolean tactics343;
+	private boolean tactics352;
+	private boolean tactics433;
+	private boolean tactics442;
+	private boolean tactics451;
+	private boolean tactics453;
 	private double budget;
 	
 
@@ -49,11 +49,10 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 	public Objectives evaluate(PlayerSelection playerSelection) {
 		int points = 0;
 		Objectives objectives = new Objectives();
-		Map<String, Integer> clubCountStarting11 = new HashMap<String, Integer>();
+		Map<String, Integer> clubCountStarting11 = new HashMap<>();
 
-		ArrayList<Player> playerList = new ArrayList<Player>(playerSelection);
-		Collections.sort(playerList,
-				(p1, p2) -> p2.getPoints1516() - p1.getPoints1516());
+		ArrayList<Player> playerList = new ArrayList<>(playerSelection);
+		playerList.sort((p1, p2) -> p2.getPoints1516() - p1.getPoints1516());
 		List<Player> starting11 = playerList.subList(0, 11);
 		starting11.forEach(player -> increaseClubCount(clubCountStarting11,
 				player));
@@ -74,12 +73,11 @@ public class ManagerSpielEvaluator implements Evaluator<PlayerSelection> {
 		for (String pos : Positions.POSITIONSARRAY) {
 			int i = 0;
 			List<Player> curPosCollection = (List<Player>) posMap.get(pos);
-			Collections.sort(curPosCollection, (p1, p2) -> p2.getPoints1516()
+			curPosCollection.sort((p1, p2) -> p2.getPoints1516()
 					- p1.getPoints1516());
 			for (Player player : curPosCollection) {
 				if (pos.equals(Positions.TOR) && i < 1) {
 					points451 += player.getPoints1516();
-					;
 					points352 += player.getPoints1516();
 					points442 += player.getPoints1516();
 					points433 += player.getPoints1516();

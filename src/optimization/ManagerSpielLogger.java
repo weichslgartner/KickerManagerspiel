@@ -50,7 +50,7 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 		String bestTeam ="";
 		System.out.println("Optimized Team:");
 		for (Individual individual : archive) {
-			String curTeam ="";
+			String curTeam;
 			PlayerSelection phenotype = (PlayerSelection) individual
 					.getPhenotype();
 			
@@ -76,14 +76,14 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 				
 
 			}
-			System.out.println( " Team:\n"+curTeam);
+			System.out.println( "\nTeam:\n"+curTeam);
 			if (bestIndividualObjectiveValue > bestteamPoints) {
 				bestTeam = curTeam;
 				bestteamPoints = bestIndividualObjectiveValue;
 				bestObjectveName = bestIndividualObjectiveName;
 			}
 		}
-		if (bestObjectveName.length() >3) {
+		if (bestObjectveName.length() >=3) {
 			System.out.println("Tactics: " + bestObjectveName.substring(0, 3) + " Points: " + bestteamPoints + " Team:\n"+bestTeam);
 
 		}
