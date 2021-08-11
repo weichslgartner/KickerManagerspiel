@@ -70,6 +70,14 @@ public class Player implements Comparable<Player> {
 		return this.name.compareToIgnoreCase(other.name);
 	}
 
+	@Override
+	public boolean equals(Object anObject) {
+		if (!(anObject instanceof Player)) {
+			return false;
+		}
+		Player otherPlayer = (Player)anObject;
+		return this.compareTo(otherPlayer) == 0;
+	}
 	public String getPosition() {
 		return position;
 	}

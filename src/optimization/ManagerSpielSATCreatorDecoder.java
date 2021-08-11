@@ -87,7 +87,7 @@ public class ManagerSpielSATCreatorDecoder extends
 				inclusionList.size());
 		// Constraint maxValueConstraint = new
 		// Constraint(Operator.LE,(int)(budget*100));
-		Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
+		//Map<String, Constraint> maxPlayerPerTeamConstraints = new HashMap<String, Constraint>();
 
 		for (Player player : playerList) {
 			for (Player player2 : inclusionList) {
@@ -119,7 +119,7 @@ public class ManagerSpielSATCreatorDecoder extends
 			// maxValueConstraint.add((int) (player.getValue() * 100), new
 			// Literal(
 			// player, true));
-
+/*
 			if (!maxPlayerPerTeamConstraints.containsKey(player.getClub())) {
 				Constraint clubConstraint = new Constraint(Operator.LE, 4);
 
@@ -128,8 +128,10 @@ public class ManagerSpielSATCreatorDecoder extends
 			}
 			maxPlayerPerTeamConstraints.get(player.getClub()).add(1,
 					new Literal(player, true));
+*/
 
 		}
+
 		constraints.add(torConstraint);
 		constraints.add(abwConstraint);
 		constraints.add(mitConstraint);
@@ -137,9 +139,9 @@ public class ManagerSpielSATCreatorDecoder extends
 		constraints.add(inclusionConstraint);
 		constraints.add(winterConstraint);
 		// constraints.add(maxValueConstraint);
-		for (String key : maxPlayerPerTeamConstraints.keySet()) {
-			constraints.add(maxPlayerPerTeamConstraints.get(key));
-		}
+		//for (String key : maxPlayerPerTeamConstraints.keySet()) {
+		//	constraints.add(maxPlayerPerTeamConstraints.get(key));
+		//}
 		System.out.println("Number of Constraints: "+constraints.size() + " Budget: "+this.budget);;
 		return constraints;
 	}

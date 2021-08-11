@@ -12,6 +12,10 @@
     <property name="tactics453">false</property>
     <property name="winter">false</property>
   </module>
+  <module class="org.opt4j.core.common.completer.IndividualCompleterModule">
+    <property name="type">PARALLEL</property>
+    <property name="threads">8</property>
+  </module>
   <module class="org.opt4j.optimizers.ea.EvolutionaryAlgorithmModule">
     <property name="generations">4000</property>
     <property name="alpha">100</property>
@@ -22,6 +26,6 @@
   <module class="org.opt4j.viewer.ViewerModule">
     <property name="closeEvent">STOP</property>
     <property name="closeOnStop">false</property>
-    <property name="title">2nd league, budget=42</property>
+    <property name="title">1st league, budget=42.5</property>
   </module>
 </configuration>

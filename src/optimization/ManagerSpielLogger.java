@@ -87,6 +87,7 @@ public class ManagerSpielLogger extends AbstractLogger implements Logger {
 			System.out.println("Tactics: " + bestObjectveName.substring(0, 3) + " Points: " + bestteamPoints + " Team:\n"+bestTeam);
 
 		}
+
 	}
 
 }
