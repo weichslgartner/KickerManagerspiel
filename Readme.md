@@ -2,6 +2,7 @@
 Optimizes football teams for the kicker managerspiel (www.kicker.de) based on the
 points from the last year (better point prediction model todo).
 Modeled as a Knapsack problem solved by SAT and EAs provided by Opt4J (http://opt4j.sourceforge.net/).
+A writeup with more information can be found [here](https://weichslgartner.github.io/kicker/).
 
 
 # Build and Run:
