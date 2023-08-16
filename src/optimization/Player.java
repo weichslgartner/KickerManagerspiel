@@ -59,11 +59,11 @@ public class Player implements Comparable<Player> {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return this.name + "(" + this.club + " " + this.position + ")";
+		return this.name + "(" + this.club + " " + this.position + " " +this.value + ")";
 	}
 	public String toCSVString() {
 		// TODO Auto-generated method stub
-		return this.name + ";" + this.club + ";" + this.position + ";"+ this.points1516 + ";\n";
+		return this.name + ";" + this.club + ";" + this.position + ";"+ this.points1516 + " " +this.value  +";\n";
 	}
 	
 	public int compareTo(Player other) {

@@ -1,525 +1,547 @@
-Neuer;Bayern München;TOR;4,5;182;2,8
-Tschauner;RB Leipzig;TOR;0,5;0;0,0
-Pentke;TSG Hoffenheim;TOR;0,8;18;2,5
-Boateng;Hertha BSC;MIT;2,2;0;0,0
-Sippel;Bor. Mönchengladbach;TOR;0,7;23;2,63
-Ulreich;Bayern München;TOR;0,8;0;0,0
-Stindl;Bor. Mönchengladbach;MIT;5,5;178;2,98
-Burchert;SpVgg Greuther Fürth;TOR;1,8;0;0,0
-Baumann;TSG Hoffenheim;TOR;3,0;153;2,89
-Müller;Bayern München;MIT;7,7;224;2,82
-Brosinski;1. FSV Mainz 05;ABW;1,4;22;3,88
-Hummels;Borussia Dortmund;ABW;4,2;139;3,14
-Szalai;1. FSV Mainz 05;STU;1,2;15;3,89
-Riemann;VfL Bochum;TOR;2,0;0;0,0
-Grahl;Eintracht Frankfurt;TOR;0,7;0;0,0
-Kruse;1. FC Union Berlin;STU;3,5;102;3,33
-Gulde;SC Freiburg;ABW;2,2;74;3,37
-Blum;VfL Bochum;MIT;1,4;0;0,0
-Herrmann;Bor. Mönchengladbach;STU;2,6;25;3,89
-Baumgartlinger;Bayer 04 Leverkusen;MIT;2,3;66;3,0
-Trapp;Eintracht Frankfurt;TOR;2,8;142;2,98
-Sommer;Bor. Mönchengladbach;TOR;3,6;133;2,98
-Jovetic;Hertha BSC;STU;2,2;0;0,0
-Choupo-Moting;Bayern München;STU;2,5;25;3,89
-Petersen;SC Freiburg;STU;2,2;59;3,75
-Jantschke;Bor. Mönchengladbach;ABW;1,4;13;3,33
-Tesche;VfL Bochum;MIT;1,7;0;0,0
-Klement;VfB Stuttgart;MIT;1,3;20;3,8
-Hitz;Borussia Dortmund;TOR;1,0;56;3,34
-Witsel;Borussia Dortmund;MIT;3,2;28;3,5
-Pekarik;Hertha BSC;ABW;1,6;74;3,38
-Schmelzer;Borussia Dortmund;ABW;1,0;0;0,0
-Didavi;VfB Stuttgart;MIT;2,0;53;3,5
-Rudy;TSG Hoffenheim;MIT;1,8;43;3,65
-Nordtveit;TSG Hoffenheim;ABW;1,0;18;3,5
-Jarstein;Hertha BSC;TOR;0,8;32;3,06
-Ilsanker;Eintracht Frankfurt;MIT;1,4;27;3,85
-Reus;Borussia Dortmund;MIT;6,5;134;3,28
-Höfler;SC Freiburg;MIT;1,8;57;3,6
-Hasebe;Eintracht Frankfurt;ABW;2,2;75;3,31
-Ginczek;VfL Wolfsburg;STU;1,5;8;4,5
-Rode;Eintracht Frankfurt;MIT;2,4;69;3,28
-Schulz;Borussia Dortmund;ABW;1,8;9;3,92
-Hübner;TSG Hoffenheim;ABW;1,8;0;0,0
-Bicakcic;TSG Hoffenheim;ABW;1,5;15;2,75
-Voglsammer;1. FC Union Berlin;STU;1,7;26;3,77
-Horn;1. FC Köln;TOR;2,8;174;2,93
-Esser;VfL Bochum;TOR;0,8;0;0,0
-Luthe;1. FC Union Berlin;TOR;2,0;129;3,06
-Chandler;Eintracht Frankfurt;ABW;1,5;7;4,5
-Moravek;FC Augsburg;MIT;1,0;4;3,75
-Caligiuri;FC Augsburg;MIT;1,9;58;3,81
-Hahn;FC Augsburg;MIT;1,8;65;3,79
-Younes;Eintracht Frankfurt;MIT;3,0;101;3,0
-Lewandowski;Bayern München;STU;10,0;332;2,5
-Bürki;Borussia Dortmund;TOR;2,5;79;3,05
-Mehmedi;VfL Wolfsburg;MIT;1,7;34;3,35
-Plattenhardt;Hertha BSC;ABW;1,6;30;3,5
-da Costa;Eintracht Frankfurt;ABW;1,7;27;3,7
-Vogt;TSG Hoffenheim;ABW;2,2;53;3,41
-Zuber;Eintracht Frankfurt;MIT;1,6;11;4,06
-Zoller;VfL Bochum;STU;1,8;0;0,0
-Guilavogui;VfL Wolfsburg;MIT;1,9;48;2,88
-Khedira;1. FC Union Berlin;MIT;1,6;21;3,89
-Belfodil;TSG Hoffenheim;STU;2,0;4;4,06
-Bellarabi;Bayer 04 Leverkusen;STU;2,0;19;3,78
-Strobl;FC Augsburg;MIT;1,3;10;3,93
-Kampl;RB Leipzig;MIT;3,2;82;3,26
-Hradecky;Bayer 04 Leverkusen;TOR;3,4;140;2,93
-Weiser;Bayer 04 Leverkusen;ABW;1,4;15;3,33
-Can;Borussia Dortmund;MIT;3,2;67;3,42
-Schmid;SC Freiburg;ABW;2,2;60;3,57
-Klos;Arminia Bielefeld;STU;1,6;21;4,03
-Gulacsi;RB Leipzig;TOR;4,2;166;2,97
-Delaney;Borussia Dortmund;MIT;2,8;66;3,15
-Trimmel;1. FC Union Berlin;ABW;2,3;89;3,42
-Kramaric;TSG Hoffenheim;STU;7,0;226;2,74
-Kramer;Bor. Mönchengladbach;MIT;2,2;58;3,48
-Casteels;VfL Wolfsburg;TOR;4,0;183;2,86
-Behrens;1. FC Union Berlin;STU;1,5;0;0,0
-Aranguiz;Bayer 04 Leverkusen;MIT;2,8;17;3,8
-Framberger;FC Augsburg;ABW;0,7;-16;4,14
-Bell;1. FSV Mainz 05;ABW;1,7;52;3,28
-Weilandt;VfL Bochum;MIT;0,8;0;0,0
-Boyata;Hertha BSC;ABW;2,4;73;3,12
-Finnbogason;FC Augsburg;STU;1,8;-2;4,36
-Schwolow;Hertha BSC;TOR;2,8;122;3,04
-Kübler;SC Freiburg;ABW;1,0;17;3,79
-Gregoritsch;FC Augsburg;STU;1,7;19;3,95
-Uth;1. FC Köln;STU;2,0;-8;4,24
-Arnold;VfL Wolfsburg;MIT;3,5;138;3,0
-Hector;1. FC Köln;MIT;2,6;70;3,23
-Czichos;1. FC Köln;ABW;1,7;45;3,63
-Gikiewicz;FC Augsburg;TOR;3,5;179;2,85
-Halstenberg;RB Leipzig;ABW;2,8;74;3,3
-Gießelmann;1. FC Union Berlin;ABW;1,5;13;3,75
-Knoche;1. FC Union Berlin;ABW;2,4;75;3,49
-Ortega Moreno;Arminia Bielefeld;TOR;3,6;200;2,81
-Zentner;1. FSV Mainz 05;TOR;2,2;133;3,08
-Modeste;1. FC Köln;STU;1,5;-5;5,25
-Kaderabek;TSG Hoffenheim;ABW;2,0;55;3,32
-Griesbeck;1. FC Union Berlin;MIT;1,2;29;3,61
-Hinteregger;Eintracht Frankfurt;ABW;2,8;87;3,36
-Lainer;Bor. Mönchengladbach;ABW;2,8;89;3,4
-Kainz;1. FC Köln;MIT;1,6;6;4,0
-Heintz;SC Freiburg;ABW;1,7;31;3,57
-Süle;Bayern München;ABW;3,0;39;3,53
-Gnabry;Bayern München;MIT;5,8;126;3,15
-Goretzka;Bayern München;MIT;7,0;139;2,77
-Kempf;VfB Stuttgart;ABW;2,2;67;3,56
-Funk;SpVgg Greuther Fürth;TOR;0,7;0;0,0
-Öztunali;1. FC Union Berlin;MIT;1,6;36;3,33
-Durm;Eintracht Frankfurt;ABW;1,6;33;3,68
-Stöger;1. FSV Mainz 05;MIT;1,7;33;3,6
-Brooks;VfL Wolfsburg;ABW;3,0;110;3,23
-Akpoguma;TSG Hoffenheim;ABW;1,6;25;3,69
-Green;SpVgg Greuther Fürth;MIT;1,7;0;0,0
-Hofmann;Bor. Mönchengladbach;MIT;3,4;119;3,24
-Selke;Hertha BSC;STU;1,5;4;4,32
-Baumgartl;1. FC Union Berlin;ABW;1,5;0;0,0
-Brandt;Borussia Dortmund;MIT;3,0;16;4,11
-Al Ghaddioui;VfB Stuttgart;STU;1,3;6;0,0
-Niederlechner;FC Augsburg;STU;2,2;20;4,0
-Orban;RB Leipzig;ABW;3,4;139;2,94
-Ujah;1. FC Union Berlin;STU;1,0;0;0,0
-Uphoff;SC Freiburg;TOR;0,7;0;0,0
-Darida;Hertha BSC;MIT;1,8;44;3,65
-Schwäbe;1. FC Köln;TOR;1,0;0;0,0
-Bockhorn;VfL Bochum;ABW;1,3;0;0,0
-Gamboa;VfL Bochum;ABW;1,4;0;0,0
-Meunier;Borussia Dortmund;ABW;2,3;18;3,88
-Dabbur;TSG Hoffenheim;STU;2,5;37;3,67
-Tah;Bayer 04 Leverkusen;ABW;2,8;81;3,29
-Philipp;VfL Wolfsburg;MIT;2,8;69;3,35
-Nielsen;SpVgg Greuther Fürth;STU;1,8;0;0,0
-Ginter;Bor. Mönchengladbach;ABW;3,8;148;3,01
-Andrich;1. FC Union Berlin;MIT;2,5;105;3,31
-Henrichs;RB Leipzig;ABW;2,0;13;3,71
-Teuchert;1. FC Union Berlin;STU;1,6;46;3,36
-Stafylidis;VfL Bochum;ABW;1,3;0;0,0
-Kimmich;Bayern München;MIT;7,0;151;2,83
-Stark;Hertha BSC;ABW;2,5;80;3,37
-Stefaniak;VfL Wolfsburg;MIT;0,6;0;0,0
-Kohr;1. FSV Mainz 05;MIT;1,7;50;3,44
-Haberer;SC Freiburg;MIT;1,6;-5;4,5
-Gerhardt;VfL Wolfsburg;MIT;2,3;72;3,45
-Lenz;Eintracht Frankfurt;ABW;2,0;65;3,43
-Pohjanpalo;Bayer 04 Leverkusen;STU;1,8;42;3,77
-Flekken;SC Freiburg;TOR;2,4;18;2,5
-Lomb;Bayer 04 Leverkusen;TOR;0,5;-1;4,0
-Demirbay;Bayer 04 Leverkusen;MIT;2,8;45;3,81
-Günter;SC Freiburg;ABW;3,0;134;3,19
-Grifo;SC Freiburg;MIT;4,0;147;3,26
-Losilla;VfL Bochum;MIT;1,7;0;0,0
-Sabitzer;RB Leipzig;MIT;6,0;154;2,9
-Hrgota;SpVgg Greuther Fürth;STU;2,0;0;0,0
-Schmitz;1. FC Köln;ABW;0,8;9;4,0
-Schöpf;Arminia Bielefeld;MIT;1,0;-45;4,92
-Andersson;1. FC Köln;STU;2,2;16;4,0
-Hack;1. FSV Mainz 05;ABW;1,4;36;3,57
-Schindler;1. FC Köln;MIT;1,0;0;0,0
-Hazard;Borussia Dortmund;STU;3,8;30;3,5
-Chibsah;VfL Bochum;MIT;0,7;0;0,0
+Neuer;Bayern München;TOR;4,5;210;2,86
+Pentke;TSG Hoffenheim;TOR;0,8;6;3,0
+Langer;FC Schalke 04;TOR;0,5;0;0,0
+Boateng;Hertha BSC;MIT;1,5;17;4,45
+Sippel;Bor. Mönchengladbach;TOR;0,7;2;4,0
+Fährmann;FC Schalke 04;TOR;1,0;0;0,0
+Ulreich;Bayern München;TOR;0,8;22;3,67
+Stindl;Bor. Mönchengladbach;MIT;3,5;98;3,73
+Latza;FC Schalke 04;MIT;1,6;0;0,0
+Baumann;TSG Hoffenheim;TOR;3,2;231;2,94
+Müller;Bayern München;MIT;7,5;250;3,03
+Hummels;Borussia Dortmund;ABW;3,4;115;3,24
+Riemann;VfL Bochum;TOR;3,6;255;2,71
+Grahl;Eintracht Frankfurt;TOR;0,5;6;3,0
+Kruse;VfL Wolfsburg;STU;3,4;195;3,37
+Gulde;SC Freiburg;ABW;1,8;80;3,31
+Herrmann;Bor. Mönchengladbach;STU;1,8;57;3,61
+Trapp;Eintracht Frankfurt;TOR;3,8;245;2,78
+Sommer;Bor. Mönchengladbach;TOR;4,0;257;2,77
+Jovetic;Hertha BSC;STU;2,2;92;3,42
+Choupo-Moting;Bayern München;STU;2,2;56;3,5
+Petersen;SC Freiburg;STU;1,6;58;3,83
+Jantschke;Bor. Mönchengladbach;ABW;1,0;12;3,5
+Polter;FC Schalke 04;STU;1,8;108;3,92
+Blaswich;RB Leipzig;TOR;0,7;0;0,0
+Götze;Eintracht Frankfurt;MIT;3,6;0;0,0
+Klement;VfB Stuttgart;MIT;1,2;16;3,88
+Terodde;FC Schalke 04;STU;2,4;0;0,0
+Pekarik;Hertha BSC;ABW;1,3;66;3,87
+Rudy;TSG Hoffenheim;MIT;1,5;63;3,67
+Jarstein;Hertha BSC;TOR;0,7;0;0,0
+Reus;Borussia Dortmund;MIT;6,5;217;3,19
+Höfler;SC Freiburg;MIT;3,0;186;3,07
+Hasebe;Eintracht Frankfurt;ABW;1,7;60;3,5
+Rode;Eintracht Frankfurt;MIT;2,0;71;3,29
+Schulz;Borussia Dortmund;ABW;1,5;34;4,0
+Hübner;TSG Hoffenheim;ABW;1,8;40;2,9
+Bicakcic;TSG Hoffenheim;ABW;1,3;2;0,0
+Voglsammer;1. FC Union Berlin;STU;1,5;65;3,94
+Horn;1. FC Köln;TOR;1,0;87;2,92
+Esser;VfL Bochum;TOR;0,8;22;2,67
+Chandler;Eintracht Frankfurt;ABW;1,3;28;4,1
+Caligiuri;FC Augsburg;MIT;1,6;80;3,98
+Groß;Werder Bremen;MIT;1,6;0;0,0
+Hahn;FC Augsburg;MIT;1,6;90;3,98
+Plattenhardt;Hertha BSC;ABW;1,5;58;3,85
+da Costa;1. FSV Mainz 05;ABW;1,4;12;4,25
+Vogt;TSG Hoffenheim;ABW;2,6;148;3,26
+Zoller;VfL Bochum;STU;1,5;44;3,57
+Guilavogui;VfL Wolfsburg;MIT;1,7;47;3,64
+Khedira;1. FC Union Berlin;MIT;1,7;115;3,61
+Ducksch;Werder Bremen;STU;2,4;0;0,0
+Bellarabi;Bayer 04 Leverkusen;STU;2,0;73;3,22
+Strobl;FC Augsburg;MIT;1,0;4;4,2
+Kampl;RB Leipzig;MIT;2,4;101;3,54
+Hradecky;Bayer 04 Leverkusen;TOR;3,2;215;2,97
+Weiser;Werder Bremen;ABW;1,2;0;0,0
+Can;Borussia Dortmund;MIT;2,8;130;3,24
+Schmid;SC Freiburg;ABW;1,7;33;3,71
+Drexler;FC Schalke 04;MIT;1,5;0;0,0
+Gulacsi;RB Leipzig;TOR;4,2;231;2,91
+Meyer;Borussia Dortmund;TOR;0,8;0;0,0
+Trimmel;1. FC Union Berlin;ABW;2,2;118;3,37
+Kramaric;TSG Hoffenheim;STU;4,8;181;3,34
+Kramer;Bor. Mönchengladbach;MIT;1,7;30;4,06
+Casteels;VfL Wolfsburg;TOR;3,2;190;3,04
+Behrens;1. FC Union Berlin;STU;1,6;67;3,38
+Aranguiz;Bayer 04 Leverkusen;MIT;2,5;126;3,0
+Framberger;FC Augsburg;ABW;0,7;38;4,09
+Bell;1. FSV Mainz 05;ABW;2,3;155;3,42
+Bittencourt;Werder Bremen;MIT;1,7;0;0,0
+Boyata;Hertha BSC;ABW;2,0;69;3,74
+Schwolow;FC Schalke 04;TOR;2,3;214;3,44
+Kübler;SC Freiburg;ABW;1,8;108;3,63
+Gregoritsch;SC Freiburg;STU;2,2;112;3,53
+Uth;1. FC Köln;MIT;3,0;183;3,04
+Arnold;VfL Wolfsburg;MIT;2,6;135;3,65
+Hector;1. FC Köln;ABW;2,8;171;3,14
+Jung;Werder Bremen;ABW;1,5;0;0,0
+Gikiewicz;FC Augsburg;TOR;2,8;204;3,18
+Kaminski;FC Schalke 04;ABW;1,6;0;0,0
+Halstenberg;RB Leipzig;ABW;2,6;37;3,29
+Gießelmann;1. FC Union Berlin;ABW;2,2;127;3,52
+Knoche;1. FC Union Berlin;ABW;2,0;130;3,52
+Zentner;1. FSV Mainz 05;TOR;3,0;225;2,92
+Modeste;1. FC Köln;STU;4,0;281;2,94
+Kaderabek;TSG Hoffenheim;ABW;1,8;70;3,56
+Lainer;Bor. Mönchengladbach;ABW;2,3;75;3,71
+Kainz;1. FC Köln;MIT;2,4;157;3,48
+Heintz;1. FC Union Berlin;ABW;1,5;26;3,67
+Füllkrug;Werder Bremen;STU;2,2;0;0,0
+Hofmann;VfL Bochum;STU;2,0;0;0,0
+Süle;Borussia Dortmund;ABW;3,6;148;2,98
+Gnabry;Bayern München;MIT;6,0;210;3,35
+Goretzka;Bayern München;MIT;5,8;115;3,18
+Kempf;Hertha BSC;ABW;1,8;75;3,84
+Öztunali;1. FC Union Berlin;MIT;1,3;26;4,21
+Yoshida;FC Schalke 04;ABW;1,9;0;0,0
+Stöger;VfL Bochum;MIT;1,6;53;3,5
+Akpoguma;TSG Hoffenheim;ABW;1,6;90;3,69
+Hofmann;Bor. Mönchengladbach;MIT;4,0;184;3,27
+Selke;Hertha BSC;STU;1,6;38;4,35
+Baumgartl;1. FC Union Berlin;ABW;2,2;124;3,36
+Brandt;Borussia Dortmund;MIT;3,8;189;3,23
+Niederlechner;FC Augsburg;STU;1,7;68;3,97
+Orban;RB Leipzig;ABW;3,5;176;3,15
+Uphoff;SC Freiburg;TOR;0,7;0;4,5
+Darida;Hertha BSC;MIT;1,6;50;4,15
+Schwäbe;1. FC Köln;TOR;3,4;171;2,64
+Gamboa;VfL Bochum;ABW;2,2;115;3,28
+Meunier;Borussia Dortmund;ABW;2,5;92;3,35
+Dabbur;TSG Hoffenheim;STU;1,8;88;3,71
+Tah;Bayer 04 Leverkusen;ABW;3,2;201;3,11
+Waldschmidt;VfL Wolfsburg;STU;1,8;11;4,5
+Möhwald;1. FC Union Berlin;MIT;1,4;26;4,5
+Rapp;Werder Bremen;MIT;1,3;0;0,0
+Philipp;VfL Wolfsburg;MIT;2,0;38;4,13
+Ginter;SC Freiburg;ABW;2,8;111;3,59
+Andrich;Bayer 04 Leverkusen;MIT;2,8;152;3,07
+Henrichs;RB Leipzig;ABW;2,3;84;3,54
+Stafylidis;VfL Bochum;ABW;1,6;76;3,47
+Kimmich;Bayern München;MIT;6,5;189;3,11
+Stark;Werder Bremen;ABW;2,0;88;3,68
+Kohr;1. FSV Mainz 05;MIT;1,6;80;3,5
+Haberer;1. FC Union Berlin;MIT;1,7;70;3,72
+Gerhardt;VfL Wolfsburg;MIT;1,8;74;3,79
+Lenz;Eintracht Frankfurt;ABW;1,5;35;3,79
+Pohjanpalo;Bayer 04 Leverkusen;STU;1,4;4;0,0
+Flekken;SC Freiburg;TOR;3,4;237;2,88
+Michel;1. FC Union Berlin;STU;1,8;46;3,33
+Lomb;Bayer 04 Leverkusen;TOR;0,5;0;0,0
+Demirbay;Bayer 04 Leverkusen;MIT;2,4;126;3,42
+Günter;SC Freiburg;ABW;3,4;216;3,09
+Grifo;SC Freiburg;MIT;4,5;247;3,06
+Losilla;VfL Bochum;MIT;2,4;174;3,29
+Sabitzer;Bayern München;MIT;3,2;43;4,23
+Schmitz;1. FC Köln;ABW;2,3;156;3,25
+Andersson;1. FC Köln;STU;1,5;56;4,07
+Hack;1. FSV Mainz 05;ABW;2,2;134;3,31
+Mané;Bayern München;STU;8,0;0;0,0
+Schindler;1. FC Köln;MIT;1,2;43;3,75
+Hazard;Borussia Dortmund;STU;2,8;65;3,86
 Busk;1. FC Union Berlin;TOR;0,5;0;0,0
-Gouweleeuw;FC Augsburg;ABW;2,0;55;3,66
-Schaub;1. FC Köln;MIT;1,3;0;0,0
-Plea;Bor. Mönchengladbach;STU;4,0;48;3,72
-Torunarigha;Hertha BSC;ABW;1,6;19;3,67
-Christiansen;SpVgg Greuther Fürth;MIT;1,3;0;0,0
-Widmer;1. FSV Mainz 05;ABW;1,8;0;0,0
-Wszolek;1. FC Union Berlin;MIT;1,5;0;0,0
-Horn;1. FC Köln;ABW;1,0;-6;4,11
-Dahmen;1. FSV Mainz 05;TOR;0,8;16;2,67
-Dorsch;FC Augsburg;MIT;2,0;0;0,0
-Geiger;TSG Hoffenheim;MIT;1,6;20;3,5
-Özcan;1. FC Köln;MIT;1,3;16;3,97
-Rönnow;1. FC Union Berlin;TOR;1,4;42;3,14
-Brenet;TSG Hoffenheim;ABW;0,7;1;0,0
-Adamyan;TSG Hoffenheim;STU;2,0;48;2,6
-Danilo Soares;VfL Bochum;ABW;1,6;0;0,0
-Poulsen;RB Leipzig;STU;3,6;79;3,3
-Mbabu;VfL Wolfsburg;ABW;2,4;60;3,28
-Klostermann;RB Leipzig;ABW;2,8;59;3,25
-Bebou;TSG Hoffenheim;STU;3,3;119;3,26
-Serdar;Hertha BSC;MIT;2,0;-18;4,34
-van der Hoorn;Arminia Bielefeld;ABW;1,4;24;3,77
+Gouweleeuw;FC Augsburg;ABW;1,6;86;3,84
+Plea;Bor. Mönchengladbach;STU;3,8;153;3,58
+Widmer;1. FSV Mainz 05;ABW;2,5;164;3,47
+Horn;VfL Bochum;ABW;1,4;24;3,64
+Dahmen;1. FSV Mainz 05;TOR;0,8;8;3,5
+Dorsch;FC Augsburg;MIT;1,8;109;3,61
+Geiger;TSG Hoffenheim;MIT;1,8;93;3,41
+Özcan;Borussia Dortmund;MIT;3,2;187;3,0
+Rönnow;1. FC Union Berlin;TOR;2,3;40;3,21
+Zetterer;Werder Bremen;TOR;0,8;0;0,0
+Adamyan;1. FC Köln;STU;1,7;29;3,75
+Danilo Soares;VfL Bochum;ABW;2,3;139;3,35
+Poulsen;RB Leipzig;STU;3,0;121;3,07
+Klostermann;RB Leipzig;ABW;2,6;105;3,2
+Bebou;TSG Hoffenheim;STU;2,2;86;3,91
+Serdar;Hertha BSC;MIT;1,8;79;3,95
 Klinger;VfL Wolfsburg;TOR;0,5;0;0,0
-Friedrich;1. FC Union Berlin;ABW;3,4;171;3,03
-Seguin;SpVgg Greuther Fürth;MIT;1,8;0;0,0
-Thommy;VfB Stuttgart;MIT;1,4;7;3,88
-Decarli;VfL Bochum;ABW;1,0;0;0,0
-Haraguchi;1. FC Union Berlin;MIT;1,7;0;0,0
-Dahoud;Borussia Dortmund;MIT;2,8;51;3,37
-Förster;VfB Stuttgart;MIT;1,6;33;3,76
-Karazor;VfB Stuttgart;ABW;1,0;11;3,88
-Stenzel;VfB Stuttgart;ABW;1,2;-1;4,03
-Grillitsch;TSG Hoffenheim;MIT;2,4;73;3,36
-Hrustic;Eintracht Frankfurt;MIT;1,4;16;3,5
-Sané;Bayern München;MIT;5,5;82;3,52
-Wolf;Borussia Dortmund;MIT;1,6;24;3,9
-Meyerhöfer;SpVgg Greuther Fürth;ABW;1,6;0;0,0
-Pantovic;VfL Bochum;MIT;1,0;0;0,0
-Klünter;Hertha BSC;ABW;1,5;23;3,55
-Mittelstädt;Hertha BSC;ABW;1,3;-5;4,11
-Höler;SC Freiburg;STU;1,7;41;3,78
-Amiri;Bayer 04 Leverkusen;MIT;2,4;19;4,0
-Prömel;1. FC Union Berlin;MIT;2,0;67;3,43
-Hübers;1. FC Köln;ABW;1,4;0;0,0
-Anton;VfB Stuttgart;ABW;2,2;62;3,5
-Sarenren Bazee;FC Augsburg;MIT;1,0;6;0,0
-Hauptmann;1. FC Köln;MIT;1,0;0;0,0
-Passlack;Borussia Dortmund;ABW;0,6;15;3,5
-Führich;VfB Stuttgart;MIT;1,6;0;0,0
-Pieper;Arminia Bielefeld;ABW;2,2;71;3,48
-Rexhbecaj;VfL Bochum;MIT;1,6;33;4,0
-Körber;Hertha BSC;TOR;0,6;0;0,0
-Lucoqui;1. FSV Mainz 05;ABW;1,5;32;3,61
-Novothny;VfL Bochum;STU;0,7;0;0,0
-Bonga;VfL Bochum;STU;0,7;0;0,0
-Müller;VfB Stuttgart;TOR;2,6;149;2,92
-Seufert;SpVgg Greuther Fürth;MIT;0,8;0;4,3
-Löwen;VfL Bochum;MIT;1,4;2;5,0
-Coman;Bayern München;MIT;6,5;146;2,98
-Gacinovic;TSG Hoffenheim;MIT;1,4;10;4,0
-Jung;SpVgg Greuther Fürth;ABW;1,2;0;0,0
-Jaeckel;1. FC Union Berlin;ABW;1,5;0;0,0
-Richter;Hertha BSC;MIT;1,8;41;3,72
-Pongracic;VfL Wolfsburg;ABW;1,8;6;3,79
-Tolisso;Bayern München;MIT;2,6;7;3,89
-Forsberg;RB Leipzig;MIT;4,0;111;3,26
-Uduokhai;FC Augsburg;ABW;2,2;70;3,47
-Neuhaus;Bor. Mönchengladbach;MIT;3,8;118;3,33
-Itter;SpVgg Greuther Fürth;ABW;1,0;0;0,0
-Maier;FC Augsburg;MIT;1,4;-5;4,19
-Bredlow;VfB Stuttgart;TOR;0,7;13;1,5
-Hernandez;Bayern München;ABW;3,4;66;3,19
-Gruezo;FC Augsburg;MIT;1,2;-7;4,08
-Hack;Arminia Bielefeld;MIT;1,6;0;0,0
-Wendell;Bayer 04 Leverkusen;ABW;1,6;8;3,94
-Boetius;1. FSV Mainz 05;MIT;1,7;25;3,92
-Embolo;Bor. Mönchengladbach;STU;3,5;64;3,63
-Sörloth;RB Leipzig;STU;3,0;56;3,6
-Holtmann;VfL Bochum;MIT;1,4;0;0,0
-Barkok;Eintracht Frankfurt;MIT;1,5;36;3,69
-Steffen;VfL Wolfsburg;MIT;2,4;73;3,43
-Brunner;Arminia Bielefeld;ABW;1,6;38;3,69
-Elvedi;Bor. Mönchengladbach;ABW;2,8;85;3,47
-Kostic;Eintracht Frankfurt;MIT;4,2;158;3,02
-Lienhart;SC Freiburg;ABW;2,8;103;3,41
-Laimer;RB Leipzig;MIT;2,8;-2;5,0
-Silva;RB Leipzig;STU;7,5;265;2,83
-Duda;1. FC Köln;MIT;2,2;65;3,78
-Oxford;FC Augsburg;ABW;0,8;5;4,07
-Krüger;Arminia Bielefeld;STU;1,5;0;0,0
-Schick;Bayer 04 Leverkusen;STU;4,0;58;3,74
-Grill;Bayer 04 Leverkusen;TOR;1,0;22;2,75
-Sinkgraven;Bayer 04 Leverkusen;ABW;1,8;31;3,63
-Guerreiro;Borussia Dortmund;ABW;3,8;119;3,22
+Friedrich;Bor. Mönchengladbach;ABW;2,5;75;3,55
+Seguin;1. FC Union Berlin;MIT;1,4;37;4,16
+Haraguchi;1. FC Union Berlin;MIT;1,5;80;3,92
+Dahoud;Borussia Dortmund;MIT;2,4;106;3,38
+Förster;VfL Bochum;MIT;1,5;43;4,0
+Karazor;VfB Stuttgart;MIT;0,8;80;3,64
+Nicolas;Bor. Mönchengladbach;TOR;0,5;0;0,0
+Stenzel;VfB Stuttgart;ABW;1,3;28;4,0
+Eggestein;SC Freiburg;MIT;2,2;122;3,48
+Hrustic;Eintracht Frankfurt;MIT;1,5;63;3,73
+Sané;Bayern München;MIT;5,5;163;3,36
+Wolf;Borussia Dortmund;MIT;1,8;87;3,72
+Pantovic;1. FC Union Berlin;MIT;1,4;67;4,1
+Mittelstädt;Hertha BSC;ABW;1,2;47;4,03
+Kyereh;SC Freiburg;MIT;2,0;0;0,0
+Höler;SC Freiburg;STU;2,8;181;3,32
+Amiri;Bayer 04 Leverkusen;MIT;1,8;26;4,33
+Prömel;TSG Hoffenheim;MIT;2,8;163;3,41
+Hübers;1. FC Köln;ABW;2,4;122;3,08
+Anton;VfB Stuttgart;ABW;2,0;119;3,52
+Sarenren Bazee;FC Augsburg;MIT;0,8;32;4,0
+Hauptmann;1. FC Köln;MIT;0,8;0;0,0
+Passlack;Borussia Dortmund;ABW;0,6;28;3,9
+Führich;VfB Stuttgart;MIT;1,7;88;3,7
+Götze;FC Augsburg;MIT;0,8;0;0,0
+Pieper;Werder Bremen;ABW;1,8;96;3,67
+Schmidt;Werder Bremen;MIT;1,0;0;0,0
+Rexhbecaj;FC Augsburg;MIT;1,6;76;3,89
+Lucoqui;1. FSV Mainz 05;ABW;1,2;29;4,06
+Bonga;VfL Bochum;STU;0,6;6;0,0
+Idrizi;FC Schalke 04;MIT;1,0;0;0,0
+Müller;VfB Stuttgart;TOR;2,4;165;3,22
+Coman;Bayern München;MIT;6,5;132;2,93
+Jaeckel;1. FC Union Berlin;ABW;1,5;74;3,7
+Richter;Hertha BSC;STU;1,7;78;4,02
+Pongracic;VfL Wolfsburg;ABW;1,5;48;3,6
+Azmoun;Bayer 04 Leverkusen;STU;2,2;37;3,25
+Forsberg;RB Leipzig;MIT;3,8;162;3,21
+Uduokhai;FC Augsburg;ABW;1,6;18;4,1
+Neuhaus;Bor. Mönchengladbach;MIT;2,6;104;3,71
+Dietz;1. FC Köln;STU;0,5;0;0,0
+Maier;FC Augsburg;MIT;1,6;83;3,79
+Bredlow;VfB Stuttgart;TOR;0,7;22;3,13
+Hernandez;Bayern München;ABW;3,0;110;3,42
+Veljkovic;Werder Bremen;ABW;1,7;0;0,0
+Gruezo;FC Augsburg;MIT;1,0;24;3,97
+Sörloth;RB Leipzig;STU;2,0;0;0,0
+Ordets;VfL Bochum;ABW;1,6;0;0,0
+Holtmann;VfL Bochum;MIT;2,0;121;3,69
+Mohr;FC Schalke 04;MIT;1,7;0;0,0
+Barkok;1. FSV Mainz 05;MIT;1,2;2;4,5
+Bülter;FC Schalke 04;STU;1,7;0;0,0
+Steffen;VfL Wolfsburg;MIT;1,7;29;4,21
+Brunner;FC Schalke 04;ABW;1,7;117;3,4
+Elvedi;Bor. Mönchengladbach;ABW;2,0;57;4,0
+Kostic;Eintracht Frankfurt;MIT;3,8;177;3,32
+Lienhart;SC Freiburg;ABW;3,2;203;3,16
+Laimer;RB Leipzig;MIT;3,0;125;3,22
+Silva;RB Leipzig;STU;4,6;124;3,8
+Duda;1. FC Köln;MIT;1,5;58;4,12
+Chabot;1. FC Köln;ABW;1,2;2;4,75
+Oxford;FC Augsburg;ABW;2,0;134;3,55
+Schick;Bayer 04 Leverkusen;STU;6,5;258;2,9
+Grill;1. FC Union Berlin;TOR;0,7;8;2,5
+Pavlenka;Werder Bremen;TOR;2,6;0;0,0
+Sinkgraven;Bayer 04 Leverkusen;ABW;1,5;32;3,33
+Maina;1. FC Köln;MIT;1,4;0;0,0
+Guerreiro;Borussia Dortmund;ABW;2,8;77;3,89
 Koubek;FC Augsburg;TOR;0,7;0;0,0
-Angelino;RB Leipzig;ABW;3,2;137;2,92
-Ganvoula;VfL Bochum;STU;1,4;0;0,0
-Toure;Eintracht Frankfurt;ABW;1,4;25;3,69
-Berggreen;SpVgg Greuther Fürth;STU;0,6;0;0,0
-Ehizibue;1. FC Köln;ABW;1,2;-7;4,19
-Becker;1. FC Union Berlin;STU;1,7;53;3,43
-Serra;Arminia Bielefeld;STU;1,6;0;0,0
-St. Juste;1. FSV Mainz 05;ABW;2,2;76;3,48
-Fernandes;1. FSV Mainz 05;MIT;1,2;18;3,64
-Sarr;Bayern München;ABW;1,4;-2;4,3
-Paciencia;Eintracht Frankfurt;STU;1,7;-6;4,36
-Kobel;Borussia Dortmund;TOR;3,6;166;2,86
-Tillman;SpVgg Greuther Fürth;MIT;1,2;0;0,0
-Pavard;Bayern München;ABW;2,8;20;3,8
-Demirovic;SC Freiburg;STU;2,8;83;3,43
-Koziello;1. FC Köln;MIT;0,8;0;0,0
-Raum;TSG Hoffenheim;ABW;2,0;0;0,0
-Lee;1. FSV Mainz 05;MIT;2,0;0;0,0
-Mangala;VfB Stuttgart;MIT;2,2;64;3,4
-Dani Olmo;RB Leipzig;MIT;4,5;123;3,2
-Upamecano;Bayern München;ABW;4,2;99;3,19
+Angelino;RB Leipzig;ABW;3,0;135;3,4
+Kenny;Hertha BSC;ABW;1,5;0;0,0
+Ganvoula;VfL Bochum;STU;1,0;6;5,0
+Toure;Eintracht Frankfurt;ABW;1,4;8;4,19
+Ehizibue;1. FC Köln;ABW;1,4;35;3,81
+Becker;1. FC Union Berlin;STU;2,4;131;3,45
+Thorsby;1. FC Union Berlin;MIT;1,8;0;0,0
+Fernandes;1. FSV Mainz 05;MIT;1,0;10;4,0
+Sarr;Bayern München;ABW;1,2;10;0,0
+Paciencia;Eintracht Frankfurt;STU;1,5;48;3,8
+Kobel;Borussia Dortmund;TOR;3,5;206;2,9
+Pavard;Bayern München;ABW;2,6;77;3,67
+Demirovic;FC Augsburg;STU;1,7;75;3,85
+Raum;RB Leipzig;ABW;4,0;209;3,14
+Lee;1. FSV Mainz 05;MIT;2,0;110;3,55
+Kral;FC Schalke 04;MIT;1,7;0;0,0
+Dani Olmo;RB Leipzig;MIT;4,0;99;2,96
+Skarke;1. FC Union Berlin;MIT;1,4;0;0,0
+Upamecano;Bayern München;ABW;3,4;125;3,42
 Doucouré;Bor. Mönchengladbach;ABW;0,5;0;0,0
-Früchtl;Bayern München;TOR;0,5;0;0,0
-Keitel;SC Freiburg;MIT;1,2;16;3,5
-Burkardt;1. FSV Mainz 05;STU;1,8;48;3,61
-Prietl;Arminia Bielefeld;MIT;1,8;55;3,55
-Onisiwo;1. FSV Mainz 05;STU;2,0;63;3,52
-Bruun Larsen;TSG Hoffenheim;STU;1,4;3;3,5
-Awoniyi;1. FC Union Berlin;STU;2,0;66;3,39
-Samassekou;TSG Hoffenheim;MIT;2,5;84;3,34
-Weghorst;VfL Wolfsburg;STU;6,8;206;3,11
-Jorge Meré;1. FC Köln;ABW;1,6;45;3,3
-Sow;Eintracht Frankfurt;MIT;2,0;56;3,52
-Aaron;1. FSV Mainz 05;ABW;1,3;-4;4,5
-Akanji;Borussia Dortmund;ABW;2,8;77;3,41
-Zakaria;Bor. Mönchengladbach;MIT;2,5;27;3,75
-Schlager;VfL Wolfsburg;MIT;3,0;123;3,14
-Tousart;Hertha BSC;MIT;2,0;36;3,7
-Thuram;Bor. Mönchengladbach;STU;4,5;88;3,41
-Bensebaini;Bor. Mönchengladbach;ABW;2,7;53;3,65
-Roussillon;VfL Wolfsburg;ABW;1,7;32;3,57
-Skhiri;1. FC Köln;MIT;2,2;68;3,67
-Leitsch;VfL Bochum;ABW;1,7;0;0,0
-Borré;Eintracht Frankfurt;STU;2,5;0;0,0
-Baku;VfL Wolfsburg;MIT;3,5;137;3,26
-Schaffran;SpVgg Greuther Fürth;TOR;0,5;0;0,0
-Posch;TSG Hoffenheim;ABW;1,7;30;3,68
-Sosa;VfB Stuttgart;ABW;2,5;82;3,35
-Vasiliadis;Arminia Bielefeld;MIT;1,4;0;0,0
-Ingvartsen;1. FC Union Berlin;STU;1,5;24;3,96
-de Medina;Arminia Bielefeld;ABW;1,0;4;3,94
-Endo;VfB Stuttgart;MIT;3,2;139;3,15
-Palacios;Bayer 04 Leverkusen;MIT;2,4;17;3,57
-Beyer;Bor. Mönchengladbach;ABW;1,2;2;4,0
-Raschl;Borussia Dortmund;MIT;0,5;0;0,0
-Brekalo;VfL Wolfsburg;MIT;2,4;77;3,59
-Kunze;Arminia Bielefeld;MIT;1,0;22;3,77
-Lukebakio;Hertha BSC;STU;2,2;22;3,96
-Hwang;RB Leipzig;STU;2,0;22;3,5
-Linner;Arminia Bielefeld;TOR;0,7;0;0,0
-Asano;VfL Bochum;MIT;1,3;0;0,0
-Nkunku;RB Leipzig;MIT;4,5;135;2,94
-Tigges;Borussia Dortmund;STU;0,6;0;5,0
-Alario;Bayer 04 Leverkusen;STU;3,5;78;3,56
-Benes;Bor. Mönchengladbach;MIT;1,5;3;4,17
-Nilsson;Arminia Bielefeld;ABW;1,7;46;3,56
-Jastrzembski;Hertha BSC;MIT;0,5;0;0,0
-Hoffmann;Bayern München;TOR;0,5;0;0,0
-Hoogma;SpVgg Greuther Fürth;ABW;1,5;0;0,0
-Fosu-Mensah;Bayer 04 Leverkusen;ABW;1,8;11;3,5
-Pervan;VfL Wolfsburg;TOR;0,8;15;2,5
+Keitel;SC Freiburg;MIT;1,2;34;3,5
+Burkardt;1. FSV Mainz 05;STU;3,2;200;3,3
+Onisiwo;1. FSV Mainz 05;STU;2,6;162;3,33
+Bruun Larsen;TSG Hoffenheim;STU;1,4;52;4,28
+Haller;Borussia Dortmund;STU;6,0;0;0,0
+Samassekou;TSG Hoffenheim;MIT;2,0;89;3,62
+Fulgini;1. FSV Mainz 05;MIT;1,8;0;0,0
+Sow;Eintracht Frankfurt;MIT;2,6;144;3,39
+Aaron;1. FSV Mainz 05;ABW;1,8;107;3,57
+Akanji;Borussia Dortmund;ABW;3,0;147;3,12
+Schlager;RB Leipzig;MIT;3,0;64;3,39
+Tousart;Hertha BSC;MIT;1,6;50;4,2
+Thuram;Bor. Mönchengladbach;STU;3,2;50;4,0
+Ouwejan;FC Schalke 04;ABW;1,8;0;0,0
+Bensebaini;Bor. Mönchengladbach;ABW;2,3;69;4,0
+Roussillon;VfL Wolfsburg;ABW;1,6;79;3,73
+Skhiri;1. FC Köln;MIT;2,6;130;3,18
+Leitsch;1. FSV Mainz 05;ABW;1,8;85;3,38
+Borré;Eintracht Frankfurt;STU;2,4;107;3,88
+Baku;VfL Wolfsburg;MIT;2,4;119;3,69
+Janko;VfL Bochum;ABW;1,4;0;0,0
+Awoudja;VfB Stuttgart;ABW;0,5;0;0,0
+Friedl;Werder Bremen;ABW;2,0;0;0,0
+Siebatcheu;1. FC Union Berlin;STU;2,6;0;0,0
+Posch;TSG Hoffenheim;ABW;1,8;110;3,58
+Sosa;VfB Stuttgart;ABW;2,4;134;3,5
+Ingvartsen;1. FSV Mainz 05;STU;1,6;70;4,17
+Endo;VfB Stuttgart;MIT;2,8;153;3,5
+Palacios;Bayer 04 Leverkusen;MIT;2,4;87;3,42
+Beyer;Bor. Mönchengladbach;ABW;1,7;63;3,53
+Brekalo;VfL Wolfsburg;MIT;1,8;3;0,0
+Lukebakio;Hertha BSC;STU;1,6;42;4,13
+Mbom;Werder Bremen;MIT;1,3;0;0,0
+Limnios;1. FC Köln;MIT;1,0;0;0,0
+Asano;VfL Bochum;MIT;1,4;70;3,98
+Nkunku;RB Leipzig;STU;8,5;337;2,84
+Tigges;1. FC Köln;STU;1,6;31;2,5
+Alario;Eintracht Frankfurt;STU;3,6;84;3,42
+Doekhi;1. FC Union Berlin;ABW;1,8;0;0,0
+Fosu-Mensah;Bayer 04 Leverkusen;ABW;1,4;8;4,0
+Burke;Werder Bremen;STU;1,4;0;0,0
+Pervan;VfL Wolfsburg;TOR;0,8;33;3,33
 Klein;FC Augsburg;TOR;0,5;0;0,0
 Unbehaun;Borussia Dortmund;TOR;0,5;0;0,0
-Asta;SpVgg Greuther Fürth;ABW;0,5;0;0,0
-Papela;1. FSV Mainz 05;MIT;0,5;1;0,0
-Fein;SpVgg Greuther Fürth;MIT;1,6;0;0,0
-Sallai;SC Freiburg;MIT;2,8;104;3,36
-Antwi-Adjei;VfL Bochum;MIT;1,3;0;0,0
-Bennetts;Bor. Mönchengladbach;STU;0,5;0;0,0
-Abdullahi;1. FC Union Berlin;STU;0,6;0;0,0
-Zeefuik;Hertha BSC;ABW;1,4;14;3,88
-Lookman;RB Leipzig;STU;1,5;0;0,0
-William;VfL Wolfsburg;ABW;1,0;-27;5,07
-Müsel;Bor. Mönchengladbach;MIT;0,5;0;0,0
-Santamaria;SC Freiburg;MIT;2,3;66;3,54
-Skov;TSG Hoffenheim;MIT;1,8;17;3,74
-Meier;1. FSV Mainz 05;ABW;0,8;0;0,0
-Kilian;1. FSV Mainz 05;ABW;1,0;-2;4,25
-Ascacibar;Hertha BSC;MIT;1,5;27;3,45
-Stach;1. FSV Mainz 05;MIT;1,5;0;0,0
-Schlotterbeck;SC Freiburg;ABW;1,8;50;3,27
-Laursen;Arminia Bielefeld;ABW;1,2;2;4,04
-Ekincier;VfL Bochum;STU;0,5;0;0,0
-Sarpei;SpVgg Greuther Fürth;MIT;1,3;0;0,0
-van Drongelen;1. FC Union Berlin;ABW;1,5;0;0,0
-Jensen;FC Augsburg;MIT;1,2;10;3,8
-Roca;Bayern München;MIT;1,6;2;4,25
-Retsos;Bayer 04 Leverkusen;ABW;1,2;0;0,0
-Adams;TSG Hoffenheim;ABW;0,8;5;3,91
-Piatek;Hertha BSC;STU;2,5;34;3,98
-Kehr;SpVgg Greuther Fürth;STU;0,5;0;0,0
-Masovic;VfL Bochum;ABW;0,8;0;0,0
-Lampropoulos;VfL Bochum;ABW;1,2;0;0,0
+Aidonis;VfB Stuttgart;ABW;0,5;0;0,0
+Krauß;FC Schalke 04;MIT;1,6;0;0,0
+Papela;1. FSV Mainz 05;MIT;0,5;8;4,0
+Fein;Bayern München;MIT;0,8;6;0,0
+Sallai;SC Freiburg;MIT;2,6;127;3,45
+Kasten;VfL Wolfsburg;TOR;0,5;0;0,0
+Antwi-Adjei;VfL Bochum;MIT;1,4;62;3,85
+Pfeiffer;VfB Stuttgart;STU;2,0;0;0,0
+Pedersen;1. FC Köln;ABW;1,5;0;0,0
+Schmid;Werder Bremen;MIT;1,7;0;0,0
+Zeefuik;Hertha BSC;ABW;1,0;-12;4,78
+Buta;Eintracht Frankfurt;ABW;1,5;0;0,0
+Lookman;RB Leipzig;STU;1,3;0;0,0
+Onguené;Eintracht Frankfurt;ABW;1,8;0;0,0
+Harit;FC Schalke 04;MIT;2,0;0;0,0
+Jakic;Eintracht Frankfurt;MIT;1,7;82;3,67
+Sunjic;Hertha BSC;MIT;1,6;0;0,0
+Müsel;Bor. Mönchengladbach;MIT;0,5;2;0,0
+Mollet;FC Schalke 04;MIT;2,2;0;0,0
+Skov;TSG Hoffenheim;MIT;1,5;34;3,6
+Kilian;1. FC Köln;ABW;1,8;109;3,57
+Leneis;FC Augsburg;TOR;0,5;0;0,0
+Goller;Werder Bremen;MIT;0,8;0;0,0
+Agu;Werder Bremen;ABW;1,6;0;0,0
+Stach;1. FSV Mainz 05;MIT;2,5;142;3,18
+Dos Santos Haesler;Werder Bremen;TOR;0,5;0;0,0
+Schlotterbeck;Borussia Dortmund;ABW;4,5;267;2,72
+de Ligt;Bayern München;ABW;4,2;0;0,0
+van Drongelen;1. FC Union Berlin;ABW;1,0;0;0,0
+Jensen;FC Augsburg;MIT;1,0;15;4,2
+Piatek;Hertha BSC;STU;1,7;16;4,2
+Masovic;VfL Bochum;ABW;1,5;72;3,53
+Lampropoulos;VfL Bochum;ABW;1,2;20;4,12
 Olschowsky;Bor. Mönchengladbach;TOR;0,5;0;0,0
-Ramaj;Eintracht Frankfurt;TOR;0,5;0;0,0
-Michelbrink;Hertha BSC;MIT;0,6;0;0,0
-Weißhaupt;SC Freiburg;MIT;0,5;0;0,0
-Churlinov;VfB Stuttgart;MIT;1,0;13;4,0
-Bauer;SpVgg Greuther Fürth;ABW;1,6;0;0,0
-Paulo Otavio;VfL Wolfsburg;ABW;1,7;34;3,55
-Wolf;Bor. Mönchengladbach;MIT;2,2;17;4,22
-Mukiele;RB Leipzig;ABW;3,0;96;3,23
+Ramaj;Eintracht Frankfurt;TOR;0,8;2;4,0
+Weißhaupt;SC Freiburg;MIT;1,0;22;0,0
+Goralski;VfL Bochum;MIT;1,5;0;0,0
+Churlinov;VfB Stuttgart;MIT;1,5;0;0,0
+Bauer;FC Augsburg;ABW;1,3;36;4,18
+Paulo Otavio;VfL Wolfsburg;ABW;1,7;33;3,4
+Wolf;Bor. Mönchengladbach;MIT;1,5;0;4,4
+Maolida;Hertha BSC;STU;1,3;4;4,46
 Malone;FC Augsburg;STU;0,7;0;0,0
-Katterbach;1. FC Köln;ABW;1,4;15;3,82
-Adams;RB Leipzig;MIT;2,2;59;3,43
-Davies;Bayern München;ABW;3,0;30;3,7
-Ache;Eintracht Frankfurt;STU;1,3;10;0,0
-Barreiro;1. FSV Mainz 05;MIT;1,8;48;3,67
-Haidara;RB Leipzig;MIT;3,2;91;3,24
-Cuisance;Bayern München;MIT;1,6;1;0,0
-Maloney;Borussia Dortmund;ABW;0,5;0;0,0
-Nartey;VfB Stuttgart;MIT;1,2;0;0,0
-Ngankam;SpVgg Greuther Fürth;STU;1,3;25;3,33
-Morey;Borussia Dortmund;ABW;2,0;24;3,55
-Zagadou;Borussia Dortmund;ABW;2,4;18;3,13
-Bakker;Bayer 04 Leverkusen;ABW;2,2;0;0,0
-Lang;VfL Wolfsburg;ABW;0,5;0;0,0
-Nebel;1. FSV Mainz 05;MIT;0,5;-2;5,0
-Meyer;VfB Stuttgart;MIT;0,5;0;0,0
-Moukoko;Borussia Dortmund;STU;1,6;25;3,5
-Thielmann;1. FC Köln;MIT;1,3;17;3,97
-John;TSG Hoffenheim;ABW;1,4;18;3,67
-Egloff;VfB Stuttgart;MIT;0,5;2;0,0
-Cordova;FC Augsburg;STU;1,3;13;4,08
-Pedersen;FC Augsburg;ABW;0,8;3;4,05
-Saracchi;RB Leipzig;ABW;1,4;0;0,0
-Schlotterbeck;SC Freiburg;ABW;1,7;30;3,66
-Kamada;Eintracht Frankfurt;MIT;3,0;105;3,47
-Paulinho;Bayer 04 Leverkusen;STU;1,8;-2;4,5
-Joao Queiros;1. FC Köln;ABW;0,5;0;0,0
-Dilrosun;Hertha BSC;MIT;1,5;13;3,69
-Nmecha;VfL Wolfsburg;STU;2,4;0;0,0
-Jeong;SC Freiburg;MIT;1,6;45;3,6
-Gebauer;Arminia Bielefeld;MIT;1,0;9;4,25
-Ljubicic;1. FC Köln;MIT;1,5;0;0,0
-Okugawa;Arminia Bielefeld;MIT;1,4;2;4,08
-Kalajdzic;VfB Stuttgart;STU;4,0;143;3,26
-Matheus Cunha;Hertha BSC;STU;3,2;86;3,46
-Vargas;FC Augsburg;MIT;2,0;58;3,67
-Poulsen;Bor. Mönchengladbach;ABW;0,5;0;0,0
-Niakhaté;1. FSV Mainz 05;ABW;2,5;89;3,5
-Papadopoulos;Borussia Dortmund;MIT;0,6;0;0,0
-Lunev;Bayer 04 Leverkusen;TOR;0,8;0;0,0
-Malen;Borussia Dortmund;STU;5,0;0;0,0
-Joao Victor;VfL Wolfsburg;MIT;1,4;23;3,8
-Stanisic;Bayern München;ABW;1,0;0;0,0
+Kolo Muani;Eintracht Frankfurt;STU;2,6;0;0,0
+Davies;Bayern München;ABW;3,4;116;3,18
+Svanberg;VfL Wolfsburg;MIT;2,6;0;0,0
+Barreiro;1. FSV Mainz 05;MIT;1,6;97;3,64
+Haidara;RB Leipzig;MIT;2,4;93;3,34
+Vagnoman;VfB Stuttgart;ABW;1,6;0;0,0
+Nartey;VfB Stuttgart;MIT;1,3;14;4,13
+Ngankam;Hertha BSC;STU;1,3;27;3,5
+Morey;Borussia Dortmund;ABW;1,7;0;0,0
+Caci;1. FSV Mainz 05;ABW;1,6;0;0,0
+Bakker;Bayer 04 Leverkusen;ABW;1,8;85;3,64
+Moukoko;Borussia Dortmund;STU;1,7;36;5,0
+Aydin;FC Schalke 04;MIT;0,8;0;0,0
+Thielmann;1. FC Köln;MIT;1,7;87;3,61
+John;TSG Hoffenheim;ABW;1,0;8;2,5
+Egloff;VfB Stuttgart;MIT;0,5;8;0,0
+Kabak;TSG Hoffenheim;ABW;2,0;0;0,0
+Pedersen;FC Augsburg;ABW;1,4;72;3,88
+Schlotterbeck;SC Freiburg;ABW;1,5;26;3,83
+Kamada;Eintracht Frankfurt;MIT;2,4;94;3,85
+Paulinho;Bayer 04 Leverkusen;STU;2,2;95;3,47
+Diogo Leite;1. FC Union Berlin;ABW;1,8;0;0,0
+Nmecha;VfL Wolfsburg;STU;2,5;97;3,73
+Jeong;SC Freiburg;MIT;2,0;108;3,83
+Ljubicic;1. FC Köln;MIT;2,6;157;3,08
+Kalajdzic;VfB Stuttgart;STU;3,4;68;3,64
+Vargas;FC Augsburg;MIT;1,6;64;4,02
+Kanga;Hertha BSC;STU;2,0;0;0,0
+Lunev;Bayer 04 Leverkusen;TOR;0,8;6;3,0
+Malen;Borussia Dortmund;STU;3,5;104;3,68
+Gruev;Werder Bremen;MIT;1,3;0;0,0
+Heekeren;FC Schalke 04;TOR;0,6;0;0,0
+Stanisic;Bayern München;ABW;1,5;55;3,17
 Philipp;TSG Hoffenheim;TOR;0,5;0;0,0
-Baumgartner;TSG Hoffenheim;MIT;3,4;120;3,28
-Ostrak;1. FC Köln;MIT;0,5;0;0,0
-Massimo;VfB Stuttgart;MIT;1,4;12;3,79
-Osterhage;VfL Bochum;MIT;0,5;0;0,0
-Gumny;FC Augsburg;ABW;1,4;12;3,94
-Puchacz;1. FC Union Berlin;ABW;1,6;0;0,0
-Szoboszlai;RB Leipzig;MIT;2,8;0;0,0
-Dajaku;1. FC Union Berlin;STU;0,8;-2;4,5
-Marmoush;VfL Wolfsburg;STU;1,3;1;0,0
-Obuz;1. FC Köln;STU;0,5;0;0,0
-Tauer;1. FSV Mainz 05;MIT;0,5;5;0,0
-Stiller;TSG Hoffenheim;MIT;1,0;0;0,0
-Ryerson;1. FC Union Berlin;ABW;1,5;37;3,55
-Dehl;1. FC Union Berlin;MIT;0,5;0;0,0
-Leweling;SpVgg Greuther Fürth;STU;1,2;0;0,0
+Baumgartner;TSG Hoffenheim;MIT;3,2;148;3,37
+Elmkies;TSG Hoffenheim;MIT;0,8;0;0,0
+Doan;SC Freiburg;MIT;2,2;0;0,0
+Issah;1. FSV Mainz 05;MIT;0,8;0;0,0
+Becker;TSG Hoffenheim;MIT;1,2;0;0,0
+Petkov;FC Augsburg;MIT;0,7;0;0,0
+Osterhage;VfL Bochum;MIT;1,0;32;3,79
+Gumny;FC Augsburg;ABW;1,2;44;4,11
+Puchacz;1. FC Union Berlin;ABW;1,3;0;0,0
+Szoboszlai;RB Leipzig;MIT;2,8;121;3,58
+Marmoush;VfL Wolfsburg;STU;1,6;69;3,88
+Otto;Eintracht Frankfurt;ABW;0,5;0;0,0
+Tauer;1. FSV Mainz 05;ABW;1,0;20;3,83
+Stiller;TSG Hoffenheim;MIT;1,7;92;3,57
+Ryerson;1. FC Union Berlin;ABW;1,8;94;3,47
+Osei-Tutu;VfL Bochum;MIT;1,5;0;0,0
+Reitz;Bor. Mönchengladbach;MIT;0,5;0;0,0
+Hlozek;Bayer 04 Leverkusen;STU;2,4;0;0,0
+Leweling;1. FC Union Berlin;STU;1,8;111;3,73
 Rieß;1. FSV Mainz 05;TOR;0,5;0;0,0
-Mavropanos;VfB Stuttgart;ABW;1,5;8;3,9
-Diaby;Bayer 04 Leverkusen;STU;3,6;76;3,63
+Nsoki;TSG Hoffenheim;ABW;999,0;0;0,0
+Mazraoui;Bayern München;ABW;2,8;0;0,0
+Italiano;Bor. Mönchengladbach;STU;0,5;0;0,0
+Mavropanos;VfB Stuttgart;ABW;2,3;144;3,63
+Diaby;Bayer 04 Leverkusen;STU;5,0;220;3,23
+Adeyemi;Borussia Dortmund;STU;4,2;0;0,0
 Atubolu;SC Freiburg;TOR;0,5;0;0,0
-Quizera;Bor. Mönchengladbach;MIT;0,5;0;0,0
-Endo;1. FC Union Berlin;MIT;1,3;12;4,25
-Ito;VfB Stuttgart;ABW;0,7;0;0,0
-Iago;FC Augsburg;ABW;1,5;28;3,75
-Nmecha;VfL Wolfsburg;MIT;0,7;0;0,0
-Kratzer;SpVgg Greuther Fürth;ABW;0,5;0;0,0
-Ernst;VfL Bochum;TOR;0,5;0;0,0
-Netz;Bor. Mönchengladbach;ABW;1,2;6;4,1
-Musiala;Bayern München;MIT;3,4;78;3,11
-Wirtz;Bayer 04 Leverkusen;MIT;3,8;90;3,41
-Gedikli;Bayer 04 Leverkusen;STU;0,5;1;0,0
-Brobbey;RB Leipzig;STU;1,5;0;0,0
-Redan;Hertha BSC;STU;0,5;7;3,5
-Dardai;Hertha BSC;ABW;1,7;38;3,06
-Haaland;Borussia Dortmund;STU;8,5;236;2,84
-Noß;Bor. Mönchengladbach;MIT;0,5;0;0,0
-Ndicka;Eintracht Frankfurt;ABW;2,4;74;3,37
-Richards;Bayern München;ABW;1,5;33;3,46
+Wind;VfL Wolfsburg;STU;2,3;67;3,64
+Itakura;Bor. Mönchengladbach;MIT;2,2;0;0,0
+Ito;VfB Stuttgart;ABW;1,6;92;3,73
+Woltemade;Werder Bremen;STU;0,6;0;0,0
+Iago;FC Augsburg;ABW;1,8;114;3,62
+Nmecha;VfL Wolfsburg;MIT;0,8;29;4,25
+Ekkelenkamp;Hertha BSC;MIT;1,5;51;4,0
+Ernst;Hertha BSC;TOR;0,6;0;0,0
+Schulze;VfL Wolfsburg;TOR;0,5;0;0,0
+Arrey-Mbi;1. FC Köln;ABW;0,6;0;0,0
+Netz;Bor. Mönchengladbach;ABW;1,6;68;3,75
+Musiala;Bayern München;MIT;4,2;160;2,83
+Wirtz;Bayer 04 Leverkusen;MIT;5,0;205;2,76
+Zirkzee;Bayern München;STU;1,5;0;0,0
+Dardai;Hertha BSC;ABW;1,2;7;4,4
+Calhanoglu;FC Schalke 04;MIT;0,7;0;0,0
+Noß;Bor. Mönchengladbach;MIT;0,6;6;0,0
+Ndicka;Eintracht Frankfurt;ABW;2,6;169;3,39
+Gravenberch;Bayern München;MIT;3,5;0;0,0
+Burgzorg;1. FSV Mainz 05;STU;1,0;9;0,0
 Ezekwem;SC Freiburg;ABW;0,6;0;0,0
-Lotka;Hertha BSC;TOR;0,5;0;0,0
-Kersken;Bor. Mönchengladbach;TOR;0,5;0;0,0
-Werthmüller;Hertha BSC;STU;0,5;0;0,0
-Cestic;1. FC Köln;ABW;0,8;-6;4,14
+Lotka;Borussia Dortmund;TOR;0,7;52;3,25
+Azhil;Bayer 04 Leverkusen;MIT;0,5;0;0,0
+Maciejewski;1. FC Union Berlin;MIT;0,5;0;0,0
+Schock;VfB Stuttgart;TOR;0,5;0;0,0
+Alidou;Eintracht Frankfurt;STU;1,4;0;0,0
+Thiaw;FC Schalke 04;ABW;1,8;0;0,0
 Grave;VfL Bochum;TOR;0,5;0;0,0
-Bella Kotchap;VfL Bochum;ABW;1,5;0;0,0
-Schade;SC Freiburg;STU;0,5;0;0,0
-Simakan;RB Leipzig;ABW;2,2;0;0,0
-Rutter;TSG Hoffenheim;STU;1,2;4;4,75
-Günther;FC Augsburg;MIT;0,7;0;0,0
-Lemperle;1. FC Köln;MIT;0,5;0;0,0
+Flick;FC Schalke 04;MIT;1,0;0;0,0
+Schade;SC Freiburg;STU;1,8;88;3,14
+Simakan;RB Leipzig;ABW;3,0;137;3,2
+Rutter;TSG Hoffenheim;STU;3,0;139;3,32
+Mustapha;1. FSV Mainz 05;STU;0,8;0;0,0
+Schröder;Eintracht Frankfurt;ABW;0,5;0;0,0
+Günther;FC Augsburg;MIT;0,6;6;4,25
+Lemperle;1. FC Köln;MIT;1,0;34;0,0
+Akman;Eintracht Frankfurt;STU;0,7;0;0,0
 Wosz;RB Leipzig;MIT;0,5;2;0,0
-Irorere;Eintracht Frankfurt;ABW;0,5;0;0,0
-Bornauw;VfL Wolfsburg;ABW;2,5;65;3,37
-Castrop;1. FC Köln;ABW;0,5;0;0,0
-Scally;Bor. Mönchengladbach;ABW;0,5;0;0,0
-Nemeth;1. FSV Mainz 05;ABW;1,5;0;0,0
-Tapsoba;Bayer 04 Leverkusen;ABW;3,0;107;3,19
-Tuta;Eintracht Frankfurt;ABW;1,6;17;3,78
-Bogarde;TSG Hoffenheim;ABW;1,0;4;4,17
-Koné;Bor. Mönchengladbach;MIT;1,2;0;0,0
-Beier;TSG Hoffenheim;STU;0,8;3;0,0
-Hartwig;VfL Bochum;STU;0,5;0;0,0
-Sankoh;VfB Stuttgart;STU;0,8;0;0,0
-Garcia MacNulty;VfL Wolfsburg;ABW;0,5;0;0,0
-Nianzou;Bayern München;ABW;2,0;-2;4,0
-Klimowicz;VfB Stuttgart;MIT;1,3;13;3,94
-Civeja;FC Augsburg;MIT;0,5;3;0,0
-Hauge;Eintracht Frankfurt;MIT;2,5;0;0,0
-Collins;Borussia Dortmund;ABW;0,6;0;0,0
-Knauff;Borussia Dortmund;STU;1,6;8;0,0
-Coulibaly;VfB Stuttgart;MIT;1,4;29;3,83
-Torlak;SpVgg Greuther Fürth;MIT;0,5;0;0,0
-Reyna;Borussia Dortmund;MIT;3,8;90;3,46
+Bornauw;VfL Wolfsburg;ABW;2,2;84;3,75
+Shabani;1. FSV Mainz 05;MIT;0,5;0;0,0
+Uremovic;Hertha BSC;ABW;1,6;0;0,0
+Matriciani;FC Schalke 04;ABW;1,0;0;0,0
+Kesik;Hertha BSC;MIT;0,5;0;0,0
+Greiml;FC Schalke 04;ABW;1,2;0;0,0
+Scally;Bor. Mönchengladbach;ABW;1,4;71;3,93
+Zalazar;FC Schalke 04;MIT;1,8;0;0,0
+Tapsoba;Bayer 04 Leverkusen;ABW;2,7;97;3,38
+Tuta;Eintracht Frankfurt;ABW;2,2;119;3,52
+Schäfer;1. FC Union Berlin;MIT;1,4;23;3,5
+Bogarde;TSG Hoffenheim;ABW;0,7;0;0,0
+Koné;Bor. Mönchengladbach;MIT;2,2;111;3,54
+Nankishi;Werder Bremen;MIT;0,6;0;0,0
+Bonnah;RB Leipzig;ABW;0,5;2;0,0
+Alderete;Hertha BSC;ABW;2,0;0;0,0
+Ilaix Moriba;RB Leipzig;MIT;1,5;4;0,0
+Tiago Tomas;VfB Stuttgart;STU;2,6;64;3,54
+Siquet;SC Freiburg;ABW;1,0;2;0,0
+Nianzou;Bayern München;ABW;1,7;46;3,71
+Millot;VfB Stuttgart;MIT;0,6;13;0,0
+Nsona;Hertha BSC;STU;0,6;0;0,0
+Klimowicz;VfB Stuttgart;MIT;1,2;23;4,29
+Hauge;Eintracht Frankfurt;MIT;1,7;52;4,08
+Stage;Werder Bremen;MIT;1,8;0;0,0
+Backhaus;Werder Bremen;TOR;0,5;0;0,0
+Gechter;Hertha BSC;ABW;1,0;25;4,0
+Loune;Eintracht Frankfurt;MIT;0,5;0;0,0
+Fischer;VfL Wolfsburg;ABW;1,2;0;0,0
+Knauff;Eintracht Frankfurt;MIT;1,8;38;3,83
+Pepi;FC Augsburg;STU;1,3;-4;4,56
+Coulibaly;VfB Stuttgart;MIT;1,2;35;4,17
+Reyna;Borussia Dortmund;MIT;3,5;43;3,38
+Ejuke;Hertha BSC;STU;1,7;0;0,0
 Burkart;SC Freiburg;STU;0,5;0;0,0
-Pecar;Eintracht Frankfurt;STU;0,5;0;0,0
+Olesen;1. FC Köln;MIT;0,5;0;0,0
+Huseinbasic;1. FC Köln;MIT;0,7;0;0,0
+Martel;1. FC Köln;MIT;1,3;0;0,0
+Asllani;TSG Hoffenheim;STU;0,5;4;0,0
 Schneider;1. FC Union Berlin;MIT;0,5;0;0,0
-Reinier;Borussia Dortmund;MIT;1,7;16;4,0
-Silas;VfB Stuttgart;MIT;3,6;154;2,96
-Kossounou;Bayer 04 Leverkusen;ABW;2,4;0;0,0
-Lindström;Eintracht Frankfurt;MIT;1,6;0;0,0
-Frimpong;Bayer 04 Leverkusen;ABW;1,8;4;3,92
-Martinez;RB Leipzig;TOR;0,7;4;3,0
+Dinkci;Werder Bremen;STU;0,8;0;0,0
+Adli;Bayer 04 Leverkusen;STU;1,7;64;3,9
+Silas;VfB Stuttgart;MIT;2,6;20;4,0
+Kossounou;Bayer 04 Leverkusen;ABW;1,9;83;3,65
+Smolcic;Eintracht Frankfurt;ABW;1,5;0;0,0
+Cissé;FC Schalke 04;ABW;0,6;0;0,0
+Lindström;Eintracht Frankfurt;MIT;2,5;130;3,63
+Perea;VfB Stuttgart;STU;1,5;0;0,0
+Frimpong;Bayer 04 Leverkusen;ABW;2,5;137;3,23
+Lee;FC Schalke 04;MIT;0,7;0;0,0
+Wollschläger;Hertha BSC;STU;0,5;0;0,0
 Urbig;1. FC Köln;TOR;0,5;0;0,0
-Ahamada;VfB Stuttgart;MIT;1,0;-11;4,2
-Vranckx;VfL Wolfsburg;MIT;1,6;0;0,0
-Bellingham;Borussia Dortmund;MIT;3,4;84;3,2
-Richards;Bayern München;ABW;1,7;0;0,0
-Wimmer;Arminia Bielefeld;MIT;0,9;0;0,0
+Ahamada;VfB Stuttgart;MIT;0,5;4;4,0
+Hincapie;Bayer 04 Leverkusen;ABW;2,2;114;3,33
+Vranckx;VfL Wolfsburg;MIT;1,8;67;3,83
+Kastanaras;VfB Stuttgart;STU;0,7;0;0,0
+Bellingham;Borussia Dortmund;MIT;5,5;210;3,06
+Gürpüz;Borussia Dortmund;MIT;0,5;0;0,0
+Novoa;RB Leipzig;STU;1,0;21;3,5
+Buchanan;Werder Bremen;ABW;1,2;0;0,0
+Noll;TSG Hoffenheim;TOR;0,5;0;0,0
+Wimmer;VfL Wolfsburg;MIT;2,4;142;3,54
 Bialek;VfL Wolfsburg;STU;1,3;26;3,5
-Abiama;SpVgg Greuther Fürth;STU;1,0;0;0,0
-Mola;VfB Stuttgart;MIT;1,2;0;0,0
-Beyaz;VfB Stuttgart;MIT;0,8;0;0,0
-Sildillia;SC Freiburg;ABW;0,5;0;0,0
-Schulz;SpVgg Greuther Fürth;TOR;0,5;0;0,0
-Barry;SpVgg Greuther Fürth;ABW;0,8;0;0,0
-Lacroix;VfL Wolfsburg;ABW;3,2;127;3,03
-Cissé;VfB Stuttgart;MIT;0,7;5;0,0
-Cherny;Arminia Bielefeld;MIT;0,5;0;0,0
-Klefisch;RB Leipzig;MIT;0,5;0;0,0
-Schulz;Arminia Bielefeld;TOR;0,5;0;0,0
-Gvardiol;RB Leipzig;ABW;2,0;0;0,0
-Winther;FC Augsburg;ABW;1,0;0;0,0
-Raebiger;RB Leipzig;MIT;0,7;0;0,0
-Coulibaly;Borussia Dortmund;ABW;1,0;0;0,0
+Kaminski;VfL Wolfsburg;MIT;2,0;0;0,0
+Mola;VfB Stuttgart;ABW;0,7;0;4,5
+Paredes;VfL Wolfsburg;MIT;0,8;4;0,0
+Schenk;Bayern München;TOR;0,5;0;0,0
+Kuol;VfB Stuttgart;STU;0,8;0;0,0
+Lee;Hertha BSC;STU;0,7;0;4,75
+Sildillia;SC Freiburg;ABW;0,7;16;3,5
+Salifou;Werder Bremen;MIT;0,5;0;0,0
+Wagner;SC Freiburg;MIT;0,5;0;0,0
+Lacroix;VfL Wolfsburg;ABW;2,6;83;3,66
+Horz;Eintracht Frankfurt;TOR;0,5;0;0,0
+Vidovic;Bayern München;MIT;0,5;6;0,0
+Eze;Bayer 04 Leverkusen;MIT;0,5;0;0,0
+Bobzien;1. FSV Mainz 05;STU;0,5;0;0,0
+Oermann;VfL Bochum;ABW;0,5;0;0,0
+Koudossou;FC Augsburg;MIT;0,5;0;0,0
+Gvardiol;RB Leipzig;ABW;3,4;167;3,17
+Bynoe-Gittens;Borussia Dortmund;STU;1,7;0;0,0
+Winther;FC Augsburg;ABW;0,7;4;4,13
+Franjic;VfL Wolfsburg;MIT;1,7;0;0,0
+Scherhant;Hertha BSC;STU;0,5;0;0,0
+Bischof;TSG Hoffenheim;MIT;0,6;2;0,0
+Ulrich;VfB Stuttgart;MIT;0,5;0;0,0
+Pejcinovic;VfL Wolfsburg;MIT;0,6;0;0,0
+Ullrich;Hertha BSC;ABW;0,5;0;0,0
+Christensen;Hertha BSC;TOR;2,0;0;0,0
+Lode;FC Schalke 04;ABW;1,2;0;0,0
+Björkan;Hertha BSC;ABW;1,0;4;4,63
+Che;TSG Hoffenheim;ABW;1,0;4;0,0
+Coulibaly;Borussia Dortmund;ABW;0,7;0;0,0
+Faghir;VfB Stuttgart;STU;1,0;19;2,5
 Kamara;Borussia Dortmund;MIT;0,5;0;0,0
-Blanco;Eintracht Frankfurt;STU;0,7;0;0,0
-Sertdemir;Bayer 04 Leverkusen;MIT;0,8;0;0,0
-Lasme;Arminia Bielefeld;STU;1,5;0;0,0
-Ramos;Arminia Bielefeld;ABW;1,0;0;0,0
-Herrero;Eintracht Frankfurt;STU;0,5;0;0,0
+Sertdemir;Bayer 04 Leverkusen;MIT;0,7;6;0,0
+Rothe;Borussia Dortmund;ABW;0,9;0;0,0
+Nickisch;RB Leipzig;TOR;0,5;0;0,0
+Ba;RB Leipzig;MIT;0,5;0;0,0
+Fraulo;Bor. Mönchengladbach;MIT;0,5;0;0,0
+Wenig;Eintracht Frankfurt;MIT;0,6;0;0,0
+Borges Sanches;Bor. Mönchengladbach;STU;0,5;0;0,0
+Zehnter;FC Augsburg;ABW;0,5;0;0,0
+Chiarodia;Werder Bremen;ABW;0,5;0;0,0
+Kwasigroch;Hertha BSC;TOR;0,5;0;0,0
+Eitschberger;Hertha BSC;ABW;0,5;0;0,0
+Bignetti;Eintracht Frankfurt;TOR;0,5;0;0,0
+Wanner;Bayern München;MIT;0,7;8;0,0
+Tel;Bayern München;STU;1,8;0;0,0
+van de Ven;VfL Wolfsburg;ABW;1,2;21;3,0
+Schlieck;RB Leipzig;TOR;0,5;0;0,0
+Tolba;VfL Bochum;ABW;0,5;0;0,0
